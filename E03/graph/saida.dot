@@ -1,0 +1,19 @@
+digraph {
+	tooltip=" "
+	graph [fontname=Arial, nodesep=0.125, ranksep=0.25];
+	node [fontcolor=white, fontname=Arial, height=0, shape=box, style=filled, width=0];
+	edge [fontname=Arial];
+	1 [color="#ff0000", fontcolor="#ffffff", fontsize="10.00", label="main\n100.00%\n(0.00%)"];
+	1 -> 2 [arrowsize="0.86", color="#cad706", fontcolor="#cad706", fontsize="10.00", label="73.41%\n10×", labeldistance="2.94", penwidth="2.94"];
+	1 -> 4 [arrowsize="0.40", color="#0c5a87", fontcolor="#0c5a87", fontsize="10.00", label="15.83%\n10×", labeldistance="0.63", penwidth="0.63"];
+	1 -> 6 [arrowsize="0.35", color="#0d3f81", fontcolor="#0d3f81", fontsize="10.00", label="10.76%\n10×", labeldistance="0.50", penwidth="0.50"];
+	2 [color="#cad706", fontcolor="#ffffff", fontsize="10.00", label="test_bubble_sort\n73.41%\n(0.00%)\n10×"];
+	2 -> 3 [arrowsize="0.86", color="#cad706", fontcolor="#cad706", fontsize="10.00", label="73.38%\n10×", labeldistance="2.94", penwidth="2.94"];
+	3 [color="#cad706", fontcolor="#ffffff", fontsize="10.00", label="bubble_sort\n73.38%\n(73.38%)\n10×"];
+	4 [color="#0c5a87", fontcolor="#ffffff", fontsize="10.00", label="test_selection_sort\n15.83%\n(0.00%)\n10×"];
+	4 -> 5 [arrowsize="0.40", color="#0c5a87", fontcolor="#0c5a87", fontsize="10.00", label="15.80%\n10×", labeldistance="0.63", penwidth="0.63"];
+	5 [color="#0c5a87", fontcolor="#ffffff", fontsize="10.00", label="selection_sort\n15.80%\n(15.80%)\n10×"];
+	6 [color="#0d3f81", fontcolor="#ffffff", fontsize="10.00", label="test_insertion_sort\n10.76%\n(0.00%)\n10×"];
+	6 -> 7 [arrowsize="0.35", color="#0d3e81", fontcolor="#0d3e81", fontsize="10.00", label="10.74%\n10×", labeldistance="0.50", penwidth="0.50"];
+	7 [color="#0d3e81", fontcolor="#ffffff", fontsize="10.00", label="insertion_sort\n10.74%\n(10.74%)\n10×"];
+}
