@@ -1,0 +1,171 @@
+1. Performance counter stats for './ceb':
+
+        20.227.019      cpu_atom/L1-dcache-loads/                                               (24,84%)
+        56.930.160      cpu_core/L1-dcache-loads/                                               (75,16%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             4.471      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (75,16%)
+         3.163.537      cpu_atom/branch-instructions/                                           (24,84%)
+         2.928.005      cpu_core/branch-instructions/                                           (75,16%)
+            29.174      cpu_atom/branch-misses/          #    0,92% of all branches             (24,84%)
+             9.297      cpu_core/branch-misses/          #    0,32% of all branches             (75,16%)
+
+       0,016820009 seconds time elapsed
+
+       0,013830000 seconds user
+       0,002963000 seconds sys
+
+2. Performance counter stats for './ceb':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        47.807.942      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             8.175      cpu_core/L1-dcache-load-misses/  #    0,02% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.987.159      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            12.346      cpu_core/branch-misses/          #    0,41% of all branches           
+
+       0,013819046 seconds time elapsed
+
+       0,011875000 seconds user
+       0,001979000 seconds sys
+
+3. Performance counter stats for './ceb':
+
+         2.389.203      cpu_atom/L1-dcache-loads/                                               (1,34%)
+        48.422.525      cpu_core/L1-dcache-loads/                                               (98,66%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             8.776      cpu_core/L1-dcache-load-misses/  #    0,02% of all L1-dcache accesses   (98,66%)
+         1.593.025      cpu_atom/branch-instructions/                                           (1,34%)
+         3.004.173      cpu_core/branch-instructions/                                           (98,66%)
+           106.122      cpu_atom/branch-misses/          #    6,66% of all branches             (1,34%)
+            11.147      cpu_core/branch-misses/          #    0,37% of all branches             (98,66%)
+
+       0,016426221 seconds time elapsed
+
+       0,012693000 seconds user
+       0,003905000 seconds sys
+
+
+
+4. Performance counter stats for './ceb':
+
+        40.814.909      cpu_atom/L1-dcache-loads/                                               (12,71%)
+        48.845.802      cpu_core/L1-dcache-loads/                                               (87,29%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+            12.421      cpu_core/L1-dcache-load-misses/  #    0,03% of all L1-dcache accesses   (87,29%)
+         2.044.154      cpu_atom/branch-instructions/                                           (12,71%)
+         3.138.610      cpu_core/branch-instructions/                                           (87,29%)
+             4.116      cpu_atom/branch-misses/          #    0,20% of all branches             (12,71%)
+            13.282      cpu_core/branch-misses/          #    0,42% of all branches             (87,29%)
+
+       0,018014666 seconds time elapsed
+
+       0,015900000 seconds user
+       0,001987000 seconds sys
+
+
+
+5. Performance counter stats for './ceb':
+
+        34.131.089      cpu_atom/L1-dcache-loads/                                               (42,10%)
+        57.770.305      cpu_core/L1-dcache-loads/                                               (57,90%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             7.939      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (57,90%)
+         2.973.153      cpu_atom/branch-instructions/                                           (42,10%)
+         3.000.785      cpu_core/branch-instructions/                                           (57,90%)
+            19.153      cpu_atom/branch-misses/          #    0,64% of all branches             (42,10%)
+             9.419      cpu_core/branch-misses/          #    0,31% of all branches             (57,90%)
+
+       0,019505561 seconds time elapsed
+
+       0,016321000 seconds user
+       0,002880000 seconds sys
+
+
+
+6. Performance counter stats for './ceb':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        47.808.630      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+            10.013      cpu_core/L1-dcache-load-misses/  #    0,02% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.987.606      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            10.519      cpu_core/branch-misses/          #    0,35% of all branches           
+
+       0,018437039 seconds time elapsed
+
+       0,016340000 seconds user
+       0,002042000 seconds sys
+
+
+
+7. Performance counter stats for './ceb':
+
+        36.284.264      cpu_atom/L1-dcache-loads/                                               (43,67%)
+        56.776.812      cpu_core/L1-dcache-loads/                                               (56,33%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             7.340      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (56,33%)
+         3.050.273      cpu_atom/branch-instructions/                                           (43,67%)
+         2.955.244      cpu_core/branch-instructions/                                           (56,33%)
+            18.446      cpu_atom/branch-misses/          #    0,60% of all branches             (43,67%)
+             9.244      cpu_core/branch-misses/          #    0,31% of all branches             (56,33%)
+
+       0,021938820 seconds time elapsed
+
+       0,018850000 seconds user
+       0,002976000 seconds sys
+
+
+
+8. Performance counter stats for './ceb':
+
+        20.285.725      cpu_atom/L1-dcache-loads/                                               (20,08%)
+        54.775.856      cpu_core/L1-dcache-loads/                                               (79,92%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             6.077      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (79,92%)
+         3.725.963      cpu_atom/branch-instructions/                                           (20,08%)
+         2.830.338      cpu_core/branch-instructions/                                           (79,92%)
+            39.731      cpu_atom/branch-misses/          #    1,07% of all branches             (20,08%)
+             7.150      cpu_core/branch-misses/          #    0,25% of all branches             (79,92%)
+
+       0,022357926 seconds time elapsed
+
+       0,019199000 seconds user
+       0,003031000 seconds sys
+
+9. Performance counter stats for './ceb':
+
+        29.854.365      cpu_atom/L1-dcache-loads/                                               (32,88%)
+        56.614.080      cpu_core/L1-dcache-loads/                                               (67,12%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             6.881      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (67,12%)
+         3.120.243      cpu_atom/branch-instructions/                                           (32,88%)
+         2.922.507      cpu_core/branch-instructions/                                           (67,12%)
+            23.381      cpu_atom/branch-misses/          #    0,75% of all branches             (32,88%)
+             9.676      cpu_core/branch-misses/          #    0,33% of all branches             (67,12%)
+
+       0,018723964 seconds time elapsed
+
+       0,016716000 seconds user
+       0,001966000 seconds sys
+
+
+
+10. Performance counter stats for './ceb':
+
+        29.767.852      cpu_atom/L1-dcache-loads/                                               (28,41%)
+        54.991.170      cpu_core/L1-dcache-loads/                                               (71,59%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             5.187      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (71,59%)
+         3.378.317      cpu_atom/branch-instructions/                                           (28,41%)
+         2.841.326      cpu_core/branch-instructions/                                           (71,59%)
+            27.168      cpu_atom/branch-misses/          #    0,80% of all branches             (28,41%)
+             7.702      cpu_core/branch-misses/          #    0,27% of all branches             (71,59%)
+
+       0,017971424 seconds time elapsed
+
+       0,015011000 seconds user
+       0,003002000 seconds sys

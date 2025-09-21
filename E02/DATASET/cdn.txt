@@ -1,0 +1,338 @@
+1. Performance counter stats for './cdn':
+
+         4.528.050      cpu_atom/L1-dcache-loads/                                               (4,95%)
+        38.706.021      cpu_core/L1-dcache-loads/                                               (95,05%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           335.865      cpu_core/L1-dcache-load-misses/  #    0,87% of all L1-dcache accesses   (95,05%)
+         2.976.604      cpu_atom/branch-instructions/                                           (4,95%)
+         2.805.022      cpu_core/branch-instructions/                                           (95,05%)
+           132.778      cpu_atom/branch-misses/          #    4,46% of all branches             (4,95%)
+            16.915      cpu_core/branch-misses/          #    0,60% of all branches             (95,05%)
+
+       0,014363435 seconds time elapsed
+
+       0,012275000 seconds user
+       0,002045000 seconds sys
+
+
+
+2. Performance counter stats for './cdn':
+
+         3.490.030      cpu_atom/L1-dcache-loads/                                               (4,82%)
+        38.711.740      cpu_core/L1-dcache-loads/                                               (95,18%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.188.759      cpu_core/L1-dcache-load-misses/  #    5,65% of all L1-dcache accesses   (95,18%)
+         2.436.592      cpu_atom/branch-instructions/                                           (4,82%)
+         2.831.137      cpu_core/branch-instructions/                                           (95,18%)
+           128.846      cpu_atom/branch-misses/          #    5,29% of all branches             (4,82%)
+            17.398      cpu_core/branch-misses/          #    0,61% of all branches             (95,18%)
+
+       0,013714551 seconds time elapsed
+
+       0,010758000 seconds user
+       0,002934000 seconds sys
+
+
+
+3. Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.029.844      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.086.151      cpu_core/L1-dcache-load-misses/  #    5,63% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.826.247      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.729      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,013127718 seconds time elapsed
+
+       0,010958000 seconds user
+       0,001992000 seconds sys
+
+
+
+4. Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.017.086      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.084.870      cpu_core/L1-dcache-load-misses/  #    5,63% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.817.318      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            21.441      cpu_core/branch-misses/          #    0,76% of all branches           
+
+       0,014713994 seconds time elapsed
+
+       0,011709000 seconds user
+       0,002927000 seconds sys
+
+
+
+5. Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.016.187      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.086.045      cpu_core/L1-dcache-load-misses/  #    5,64% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.816.707      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            19.082      cpu_core/branch-misses/          #    0,68% of all branches           
+
+       0,012555516 seconds time elapsed
+
+       0,009501000 seconds user
+       0,002850000 seconds sys
+
+
+
+6. Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.010.335      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.084.362      cpu_core/L1-dcache-load-misses/  #    5,63% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.812.292      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            20.050      cpu_core/branch-misses/          #    0,71% of all branches           
+
+       0,012588917 seconds time elapsed
+
+       0,009573000 seconds user
+       0,002872000 seconds sys
+
+
+
+7. Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.016.585      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           314.824      cpu_core/L1-dcache-load-misses/  #    0,85% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.816.683      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.579      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,014601567 seconds time elapsed
+
+       0,012572000 seconds user
+       0,002095000 seconds sys
+
+
+
+8. Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.022.548      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           552.140      cpu_core/L1-dcache-load-misses/  #    1,49% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.820.764      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.685      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,014674717 seconds time elapsed
+
+       0,010688000 seconds user
+       0,003886000 seconds sys
+
+
+
+9. Performance counter stats for './cdn':
+
+        11.590.399      cpu_atom/L1-dcache-loads/                                               (32,67%)
+        49.386.441      cpu_core/L1-dcache-loads/                                               (67,33%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           642.973      cpu_core/L1-dcache-load-misses/  #    1,30% of all L1-dcache accesses   (67,33%)
+         2.193.836      cpu_atom/branch-instructions/                                           (32,67%)
+         3.132.157      cpu_core/branch-instructions/                                           (67,33%)
+            25.820      cpu_atom/branch-misses/          #    1,18% of all branches             (32,67%)
+            22.158      cpu_core/branch-misses/          #    0,71% of all branches             (67,33%)
+
+       0,014103125 seconds time elapsed
+
+       0,010088000 seconds user
+       0,004035000 seconds sys
+
+10. Performance counter stats for './cdn':
+
+         4.528.050      cpu_atom/L1-dcache-loads/                                               (4,95%)
+        38.706.021      cpu_core/L1-dcache-loads/                                               (95,05%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           335.865      cpu_core/L1-dcache-load-misses/  #    0,87% of all L1-dcache accesses   (95,05%)
+         2.976.604      cpu_atom/branch-instructions/                                           (4,95%)
+         2.805.022      cpu_core/branch-instructions/                                           (95,05%)
+           132.778      cpu_atom/branch-misses/          #    4,46% of all branches             (4,95%)
+            16.915      cpu_core/branch-misses/          #    0,60% of all branches             (95,05%)
+
+       0,014363435 seconds time elapsed
+
+       0,012275000 seconds user
+       0,002045000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+         3.490.030      cpu_atom/L1-dcache-loads/                                               (4,82%)
+        38.711.740      cpu_core/L1-dcache-loads/                                               (95,18%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.188.759      cpu_core/L1-dcache-load-misses/  #    5,65% of all L1-dcache accesses   (95,18%)
+         2.436.592      cpu_atom/branch-instructions/                                           (4,82%)
+         2.831.137      cpu_core/branch-instructions/                                           (95,18%)
+           128.846      cpu_atom/branch-misses/          #    5,29% of all branches             (4,82%)
+            17.398      cpu_core/branch-misses/          #    0,61% of all branches             (95,18%)
+
+       0,013714551 seconds time elapsed
+
+       0,010758000 seconds user
+       0,002934000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.029.844      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.086.151      cpu_core/L1-dcache-load-misses/  #    5,63% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.826.247      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.729      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,013127718 seconds time elapsed
+
+       0,010958000 seconds user
+       0,001992000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.017.086      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.084.870      cpu_core/L1-dcache-load-misses/  #    5,63% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.817.318      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            21.441      cpu_core/branch-misses/          #    0,76% of all branches           
+
+       0,014713994 seconds time elapsed
+
+       0,011709000 seconds user
+       0,002927000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.016.187      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.086.045      cpu_core/L1-dcache-load-misses/  #    5,64% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.816.707      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            19.082      cpu_core/branch-misses/          #    0,68% of all branches           
+
+       0,012555516 seconds time elapsed
+
+       0,009501000 seconds user
+       0,002850000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.010.335      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.084.362      cpu_core/L1-dcache-load-misses/  #    5,63% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.812.292      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            20.050      cpu_core/branch-misses/          #    0,71% of all branches           
+
+       0,012588917 seconds time elapsed
+
+       0,009573000 seconds user
+       0,002872000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.016.585      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           314.824      cpu_core/L1-dcache-load-misses/  #    0,85% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.816.683      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.579      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,014601567 seconds time elapsed
+
+       0,012572000 seconds user
+       0,002095000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.022.548      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           552.140      cpu_core/L1-dcache-load-misses/  #    1,49% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.820.764      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.685      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,014674717 seconds time elapsed
+
+       0,010688000 seconds user
+       0,003886000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+        11.590.399      cpu_atom/L1-dcache-loads/                                               (32,67%)
+        49.386.441      cpu_core/L1-dcache-loads/                                               (67,33%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           642.973      cpu_core/L1-dcache-load-misses/  #    1,30% of all L1-dcache accesses   (67,33%)
+         2.193.836      cpu_atom/branch-instructions/                                           (32,67%)
+         3.132.157      cpu_core/branch-instructions/                                           (67,33%)
+            25.820      cpu_atom/branch-misses/          #    1,18% of all branches             (32,67%)
+            22.158      cpu_core/branch-misses/          #    0,71% of all branches             (67,33%)
+
+       0,014103125 seconds time elapsed
+
+       0,010088000 seconds user
+       0,004035000 seconds sys
+
+
+
+ Performance counter stats for './cdn':
+
+        37.060.391      cpu_atom/L1-dcache-loads/                                             
+     <not counted>      cpu_core/L1-dcache-loads/                                               (0,00%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+     <not counted>      cpu_core/L1-dcache-load-misses/                                         (0,00%)
+         2.839.972      cpu_atom/branch-instructions/                                         
+     <not counted>      cpu_core/branch-instructions/                                           (0,00%)
+            25.016      cpu_atom/branch-misses/          #    0,88% of all branches           
+     <not counted>      cpu_core/branch-misses/                                                 (0,00%)
+
+       0,033340995 seconds time elapsed
+
+       0,028492000 seconds user
+       0,004912000 seconds sys
+

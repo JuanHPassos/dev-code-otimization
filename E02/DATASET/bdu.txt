@@ -1,0 +1,177 @@
+1. Performance counter stats for './bdu':
+
+        21.813.492      cpu_atom/L1-dcache-loads/                                               (43,73%)
+        45.108.574      cpu_core/L1-dcache-loads/                                               (56,27%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.776.114      cpu_core/L1-dcache-load-misses/  #    6,15% of all L1-dcache accesses   (56,27%)
+         1.888.662      cpu_atom/branch-instructions/                                           (43,73%)
+         1.670.216      cpu_core/branch-instructions/                                           (56,27%)
+            16.428      cpu_atom/branch-misses/          #    0,87% of all branches             (43,73%)
+            10.664      cpu_core/branch-misses/          #    0,64% of all branches             (56,27%)
+
+       0,015181609 seconds time elapsed
+
+       0,013169000 seconds user
+       0,002026000 seconds sys
+
+
+
+2. Performance counter stats for './bdu':
+
+        34.951.592      cpu_atom/L1-dcache-loads/                                             
+     <not counted>      cpu_core/L1-dcache-loads/                                               (0,00%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+     <not counted>      cpu_core/L1-dcache-load-misses/                                         (0,00%)
+         1.783.238      cpu_atom/branch-instructions/                                         
+     <not counted>      cpu_core/branch-instructions/                                           (0,00%)
+             8.983      cpu_atom/branch-misses/          #    0,50% of all branches           
+     <not counted>      cpu_core/branch-misses/                                                 (0,00%)
+
+       0,022940617 seconds time elapsed
+
+       0,017889000 seconds user
+       0,004707000 seconds sys
+
+
+
+3. Performance counter stats for './bdu':
+
+        15.592.909      cpu_atom/L1-dcache-loads/                                               (23,83%)
+        40.975.794      cpu_core/L1-dcache-loads/                                               (76,17%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.519.920      cpu_core/L1-dcache-load-misses/  #    6,15% of all L1-dcache accesses   (76,17%)
+         2.644.428      cpu_atom/branch-instructions/                                           (23,83%)
+         1.495.659      cpu_core/branch-instructions/                                           (76,17%)
+            30.133      cpu_atom/branch-misses/          #    1,14% of all branches             (23,83%)
+            11.280      cpu_core/branch-misses/          #    0,75% of all branches             (76,17%)
+
+       0,017271475 seconds time elapsed
+
+       0,014216000 seconds user
+       0,003046000 seconds sys
+
+
+
+4. Performance counter stats for './bdu':
+
+        11.832.794      cpu_atom/L1-dcache-loads/                                               (16,80%)
+        39.591.002      cpu_core/L1-dcache-loads/                                               (83,20%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           532.207      cpu_core/L1-dcache-load-misses/  #    1,34% of all L1-dcache accesses   (83,20%)
+         3.401.885      cpu_atom/branch-instructions/                                           (16,80%)
+         1.439.927      cpu_core/branch-instructions/                                           (83,20%)
+            41.274      cpu_atom/branch-misses/          #    1,21% of all branches             (16,80%)
+             9.310      cpu_core/branch-misses/          #    0,65% of all branches             (83,20%)
+
+       0,016521163 seconds time elapsed
+
+       0,014494000 seconds user
+       0,002070000 seconds sys
+
+
+
+5. Performance counter stats for './bdu':
+
+         8.548.770      cpu_atom/L1-dcache-loads/                                               (21,47%)
+        42.125.927      cpu_core/L1-dcache-loads/                                               (78,53%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           260.161      cpu_core/L1-dcache-load-misses/  #    0,62% of all L1-dcache accesses   (78,53%)
+         2.620.675      cpu_atom/branch-instructions/                                           (21,47%)
+         1.529.172      cpu_core/branch-instructions/                                           (78,53%)
+            34.084      cpu_atom/branch-misses/          #    1,30% of all branches             (21,47%)
+             9.065      cpu_core/branch-misses/          #    0,59% of all branches             (78,53%)
+
+       0,014199468 seconds time elapsed
+
+       0,012227000 seconds user
+       0,002037000 seconds sys
+
+
+
+6. Performance counter stats for './bdu':
+
+         2.597.659      cpu_atom/L1-dcache-loads/                                               (5,58%)
+        36.814.538      cpu_core/L1-dcache-loads/                                               (94,42%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           668.082      cpu_core/L1-dcache-load-misses/  #    1,81% of all L1-dcache accesses   (94,42%)
+         1.820.842      cpu_atom/branch-instructions/                                           (5,58%)
+         1.753.744      cpu_core/branch-instructions/                                           (94,42%)
+           101.411      cpu_atom/branch-misses/          #    5,57% of all branches             (5,58%)
+            10.177      cpu_core/branch-misses/          #    0,58% of all branches             (94,42%)
+
+       0,011594277 seconds time elapsed
+
+       0,010656000 seconds user
+       0,001065000 seconds sys
+
+
+
+7. Performance counter stats for './bdu':
+
+        16.654.900      cpu_atom/L1-dcache-loads/                                               (28,39%)
+        42.179.906      cpu_core/L1-dcache-loads/                                               (71,61%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           594.611      cpu_core/L1-dcache-load-misses/  #    1,41% of all L1-dcache accesses   (71,61%)
+         2.341.507      cpu_atom/branch-instructions/                                           (28,39%)
+         1.547.343      cpu_core/branch-instructions/                                           (71,61%)
+            26.393      cpu_atom/branch-misses/          #    1,13% of all branches             (28,39%)
+             8.164      cpu_core/branch-misses/          #    0,53% of all branches             (71,61%)
+
+       0,019120402 seconds time elapsed
+
+       0,015540000 seconds user
+       0,003108000 seconds sys
+
+
+
+8. Performance counter stats for './bdu':
+
+        30.880.422      cpu_atom/L1-dcache-loads/                                               (77,49%)
+        48.891.293      cpu_core/L1-dcache-loads/                                               (22,51%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         3.002.783      cpu_core/L1-dcache-load-misses/  #    6,14% of all L1-dcache accesses   (22,51%)
+         1.716.790      cpu_atom/branch-instructions/                                           (77,49%)
+         1.970.389      cpu_core/branch-instructions/                                           (22,51%)
+             9.951      cpu_atom/branch-misses/          #    0,58% of all branches             (77,49%)
+            17.393      cpu_core/branch-misses/          #    0,88% of all branches             (22,51%)
+
+       0,019449031 seconds time elapsed
+
+       0,017577000 seconds user
+       0,001953000 seconds sys
+
+
+
+9. Performance counter stats for './bdu':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        34.910.301      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           278.017      cpu_core/L1-dcache-load-misses/  #    0,80% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         1.761.630      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            15.110      cpu_core/branch-misses/          #    0,86% of all branches           
+
+       0,011573573 seconds time elapsed
+
+       0,009386000 seconds user
+       0,002085000 seconds sys
+
+
+
+10. Performance counter stats for './bdu':
+
+        34.379.402      cpu_atom/L1-dcache-loads/                                               (95,91%)
+        48.816.672      cpu_core/L1-dcache-loads/                                               (4,09%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         1.556.625      cpu_core/L1-dcache-load-misses/  #    3,19% of all L1-dcache accesses   (4,09%)
+         1.799.568      cpu_atom/branch-instructions/                                           (95,91%)
+         1.696.515      cpu_core/branch-instructions/                                           (4,09%)
+            10.840      cpu_atom/branch-misses/          #    0,60% of all branches             (95,91%)
+            12.772      cpu_core/branch-misses/          #    0,75% of all branches             (4,09%)
+
+       0,022652876 seconds time elapsed
+
+       0,020581000 seconds user
+       0,002058000 seconds sys

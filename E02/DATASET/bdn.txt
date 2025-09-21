@@ -1,0 +1,172 @@
+1. Performance counter stats for './bdn':
+
+         6.663.986      cpu_atom/L1-dcache-loads/                                               (14,16%)
+        42.032.956      cpu_core/L1-dcache-loads/                                               (85,84%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.422.942      cpu_core/L1-dcache-load-misses/  #    5,76% of all L1-dcache accesses   (85,84%)
+         3.223.528      cpu_atom/branch-instructions/                                           (14,16%)
+         2.753.330      cpu_core/branch-instructions/                                           (85,84%)
+            49.946      cpu_atom/branch-misses/          #    1,55% of all branches             (14,16%)
+            17.753      cpu_core/branch-misses/          #    0,64% of all branches             (85,84%)
+
+       0,016740969 seconds time elapsed
+
+       0,014727000 seconds user
+       0,002103000 seconds sys
+
+
+
+2. Performance counter stats for './bdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.010.973      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.087.948      cpu_core/L1-dcache-load-misses/  #    5,64% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.813.177      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            21.031      cpu_core/branch-misses/          #    0,75% of all branches           
+
+       0,016542368 seconds time elapsed
+
+       0,014426000 seconds user
+       0,002060000 seconds sys
+
+
+
+3. Performance counter stats for './bdn':
+
+         4.708.466      cpu_atom/L1-dcache-loads/                                               (6,75%)
+        39.351.644      cpu_core/L1-dcache-loads/                                               (93,25%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           502.405      cpu_core/L1-dcache-load-misses/  #    1,28% of all L1-dcache accesses   (93,25%)
+         2.767.159      cpu_atom/branch-instructions/                                           (6,75%)
+         2.813.679      cpu_core/branch-instructions/                                           (93,25%)
+            96.805      cpu_atom/branch-misses/          #    3,50% of all branches             (6,75%)
+            18.411      cpu_core/branch-misses/          #    0,65% of all branches             (93,25%)
+
+       0,017092211 seconds time elapsed
+
+       0,015117000 seconds user
+       0,002015000 seconds sys
+
+
+
+4. Performance counter stats for './bdn':
+
+        29.698.175      cpu_atom/L1-dcache-loads/                                               (70,15%)
+        54.260.860      cpu_core/L1-dcache-loads/                                               (29,85%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           350.634      cpu_core/L1-dcache-load-misses/  #    0,65% of all L1-dcache accesses   (29,85%)
+         2.505.381      cpu_atom/branch-instructions/                                           (70,15%)
+         3.563.816      cpu_core/branch-instructions/                                           (29,85%)
+            23.783      cpu_atom/branch-misses/          #    0,95% of all branches             (70,15%)
+            23.527      cpu_core/branch-misses/          #    0,66% of all branches             (29,85%)
+
+       0,020846532 seconds time elapsed
+
+       0,019730000 seconds user
+       0,001038000 seconds sys
+
+
+5. Performance counter stats for './bdn':
+
+        37.456.306      cpu_atom/L1-dcache-loads/                                               (82,02%)
+        35.162.716      cpu_core/L1-dcache-loads/                                               (17,98%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           966.790      cpu_core/L1-dcache-load-misses/  #    2,75% of all L1-dcache accesses   (17,98%)
+         2.601.140      cpu_atom/branch-instructions/                                           (82,02%)
+         3.888.394      cpu_core/branch-instructions/                                           (17,98%)
+            19.313      cpu_atom/branch-misses/          #    0,74% of all branches             (82,02%)
+            56.318      cpu_core/branch-misses/          #    1,45% of all branches             (17,98%)
+
+       0,025797389 seconds time elapsed
+
+       0,022379000 seconds user
+       0,003051000 seconds sys
+
+
+
+6. Performance counter stats for './bdn':
+
+        18.332.117      cpu_atom/L1-dcache-loads/                                               (42,93%)
+        51.089.486      cpu_core/L1-dcache-loads/                                               (57,07%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           621.313      cpu_core/L1-dcache-load-misses/  #    1,22% of all L1-dcache accesses   (57,07%)
+         2.233.863      cpu_atom/branch-instructions/                                           (42,93%)
+         3.261.411      cpu_core/branch-instructions/                                           (57,07%)
+            24.432      cpu_atom/branch-misses/          #    1,09% of all branches             (42,93%)
+            20.888      cpu_core/branch-misses/          #    0,64% of all branches             (57,07%)
+
+       0,014425530 seconds time elapsed
+
+       0,012641000 seconds user
+       0,002106000 seconds sys
+
+7. Performance counter stats for './bdn':
+
+        12.536.141      cpu_atom/L1-dcache-loads/                                               (22,12%)
+        43.966.982      cpu_core/L1-dcache-loads/                                               (77,88%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           975.074      cpu_core/L1-dcache-load-misses/  #    2,22% of all L1-dcache accesses   (77,88%)
+         2.896.109      cpu_atom/branch-instructions/                                           (22,12%)
+         2.787.621      cpu_core/branch-instructions/                                           (77,88%)
+            36.426      cpu_atom/branch-misses/          #    1,26% of all branches             (22,12%)
+            22.480      cpu_core/branch-misses/          #    0,81% of all branches             (77,88%)
+
+       0,015376517 seconds time elapsed
+
+       0,011215000 seconds user
+       0,003738000 seconds sys
+
+
+
+8. Performance counter stats for './bdn':
+
+         5.045.849      cpu_atom/L1-dcache-loads/                                               (7,24%)
+        39.526.116      cpu_core/L1-dcache-loads/                                               (92,76%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           267.974      cpu_core/L1-dcache-load-misses/  #    0,68% of all L1-dcache accesses   (92,76%)
+         2.880.114      cpu_atom/branch-instructions/                                           (7,24%)
+         2.817.328      cpu_core/branch-instructions/                                           (92,76%)
+            92.515      cpu_atom/branch-misses/          #    3,21% of all branches             (7,24%)
+            16.418      cpu_core/branch-misses/          #    0,58% of all branches             (92,76%)
+
+       0,017961528 seconds time elapsed
+
+       0,015927000 seconds user
+       0,001990000 seconds sys
+
+
+
+9. Performance counter stats for './bdn':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.030.113      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         1.148.236      cpu_core/L1-dcache-load-misses/  #    3,10% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.825.660      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            21.938      cpu_core/branch-misses/          #    0,78% of all branches           
+
+       0,015056059 seconds time elapsed
+
+       0,013075000 seconds user
+       0,002011000 seconds sys
+ 
+10. Performance counter stats for './bdn':
+
+        14.988.532      cpu_atom/L1-dcache-loads/                                               (21,14%)
+        42.930.158      cpu_core/L1-dcache-loads/                                               (78,86%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           455.217      cpu_core/L1-dcache-load-misses/  #    1,06% of all L1-dcache accesses   (78,86%)
+         3.163.433      cpu_atom/branch-instructions/                                           (21,14%)
+         2.725.161      cpu_core/branch-instructions/                                           (78,86%)
+            38.907      cpu_atom/branch-misses/          #    1,23% of all branches             (21,14%)
+            19.432      cpu_core/branch-misses/          #    0,71% of all branches             (78,86%)
+
+       0,015564379 seconds time elapsed
+
+       0,012457000 seconds user
+       0,003114000 seconds sys

@@ -1,0 +1,177 @@
+1. Performance counter stats for './cdb':
+
+        37.309.052      cpu_atom/L1-dcache-loads/                                               (46,69%)
+        56.879.042      cpu_core/L1-dcache-loads/                                               (53,31%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             6.687      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (53,31%)
+         2.896.715      cpu_atom/branch-instructions/                                           (46,69%)
+         2.954.926      cpu_core/branch-instructions/                                           (53,31%)
+            17.336      cpu_atom/branch-misses/          #    0,60% of all branches             (46,69%)
+            54.392      cpu_core/branch-misses/          #    1,84% of all branches             (53,31%)
+
+       0,019321731 seconds time elapsed
+
+       0,017270000 seconds user
+       0,002031000 seconds sys
+
+
+
+2. Performance counter stats for './cdb':
+
+        38.914.973      cpu_atom/L1-dcache-loads/                                               (65,10%)
+        64.231.217      cpu_core/L1-dcache-loads/                                               (34,90%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             9.201      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (34,90%)
+         2.692.200      cpu_atom/branch-instructions/                                           (65,10%)
+         3.383.715      cpu_core/branch-instructions/                                           (34,90%)
+            13.148      cpu_atom/branch-misses/          #    0,49% of all branches             (65,10%)
+            75.523      cpu_core/branch-misses/          #    2,23% of all branches             (34,90%)
+
+       0,022653785 seconds time elapsed
+
+       0,019858000 seconds user
+       0,002978000 seconds sys
+
+
+
+3. Performance counter stats for './cdb':
+
+        34.061.129      cpu_atom/L1-dcache-loads/                                               (35,65%)
+        55.344.976      cpu_core/L1-dcache-loads/                                               (64,35%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             6.785      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (64,35%)
+         3.065.231      cpu_atom/branch-instructions/                                           (35,65%)
+         2.867.431      cpu_core/branch-instructions/                                           (64,35%)
+            21.349      cpu_atom/branch-misses/          #    0,70% of all branches             (35,65%)
+            57.613      cpu_core/branch-misses/          #    2,01% of all branches             (64,35%)
+
+       0,021626552 seconds time elapsed
+
+       0,018726000 seconds user
+       0,002956000 seconds sys
+
+
+
+4. Performance counter stats for './cdb':
+
+        37.495.260      cpu_atom/L1-dcache-loads/                                               (50,88%)
+        58.405.519      cpu_core/L1-dcache-loads/                                               (49,12%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             6.472      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (49,12%)
+         2.845.060      cpu_atom/branch-instructions/                                           (50,88%)
+         3.046.927      cpu_core/branch-instructions/                                           (49,12%)
+            16.148      cpu_atom/branch-misses/          #    0,57% of all branches             (50,88%)
+            58.691      cpu_core/branch-misses/          #    1,93% of all branches             (49,12%)
+
+       0,023047746 seconds time elapsed
+
+       0,020072000 seconds user
+       0,003010000 seconds sys
+
+
+
+5. Performance counter stats for './cdb':
+
+        46.313.602      cpu_atom/L1-dcache-loads/                                               (92,37%)
+        65.402.611      cpu_core/L1-dcache-loads/                                               (7,63%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+            27.093      cpu_core/L1-dcache-load-misses/  #    0,04% of all L1-dcache accesses   (7,63%)
+         2.856.473      cpu_atom/branch-instructions/                                           (92,37%)
+         4.046.284      cpu_core/branch-instructions/                                           (7,63%)
+            10.412      cpu_atom/branch-misses/          #    0,36% of all branches             (92,37%)
+            40.004      cpu_core/branch-misses/          #    0,99% of all branches             (7,63%)
+
+       0,025656395 seconds time elapsed
+
+       0,022761000 seconds user
+       0,002968000 seconds sys
+
+
+
+6. Performance counter stats for './cdb':
+
+        18.831.043      cpu_atom/L1-dcache-loads/                                               (22,30%)
+        56.040.709      cpu_core/L1-dcache-loads/                                               (77,70%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             4.020      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (77,70%)
+         3.127.949      cpu_atom/branch-instructions/                                           (22,30%)
+         2.871.408      cpu_core/branch-instructions/                                           (77,70%)
+            32.689      cpu_atom/branch-misses/          #    1,05% of all branches             (22,30%)
+            54.822      cpu_core/branch-misses/          #    1,91% of all branches             (77,70%)
+
+       0,017709781 seconds time elapsed
+
+       0,014885000 seconds user
+       0,002977000 seconds sys
+
+
+
+7. Performance counter stats for './cdb':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        47.753.725      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+            11.179      cpu_core/L1-dcache-load-misses/  #    0,02% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.941.588      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            53.535      cpu_core/branch-misses/          #    1,82% of all branches           
+
+       0,018547663 seconds time elapsed
+
+       0,015695000 seconds user
+       0,002942000 seconds sys
+
+
+
+8. Performance counter stats for './cdb':
+
+        22.367.703      cpu_atom/L1-dcache-loads/                                               (19,06%)
+        53.718.661      cpu_core/L1-dcache-loads/                                               (80,94%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             8.465      cpu_core/L1-dcache-load-misses/  #    0,02% of all L1-dcache accesses   (80,94%)
+         3.648.141      cpu_atom/branch-instructions/                                           (19,06%)
+         2.760.902      cpu_core/branch-instructions/                                           (80,94%)
+            37.759      cpu_atom/branch-misses/          #    1,04% of all branches             (19,06%)
+            61.307      cpu_core/branch-misses/          #    2,22% of all branches             (80,94%)
+
+       0,020476551 seconds time elapsed
+
+       0,018393000 seconds user
+       0,002043000 seconds sys
+
+
+
+9. Performance counter stats for './cdb':
+
+        35.917.150      cpu_atom/L1-dcache-loads/                                               (39,39%)
+        55.454.779      cpu_core/L1-dcache-loads/                                               (60,61%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+             7.188      cpu_core/L1-dcache-load-misses/  #    0,01% of all L1-dcache accesses   (60,61%)
+         3.046.213      cpu_atom/branch-instructions/                                           (39,39%)
+         2.870.746      cpu_core/branch-instructions/                                           (60,61%)
+            20.965      cpu_atom/branch-misses/          #    0,69% of all branches             (39,39%)
+            56.338      cpu_core/branch-misses/          #    1,96% of all branches             (60,61%)
+
+       0,021489500 seconds time elapsed
+
+       0,018565000 seconds user
+       0,002931000 seconds sys
+
+
+
+10. Performance counter stats for './cdb':
+
+        39.947.276      cpu_atom/L1-dcache-loads/                                               (64,79%)
+        62.114.979      cpu_core/L1-dcache-loads/                                               (35,21%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+            11.029      cpu_core/L1-dcache-load-misses/  #    0,02% of all L1-dcache accesses   (35,21%)
+         2.749.957      cpu_atom/branch-instructions/                                           (64,79%)
+         3.278.274      cpu_core/branch-instructions/                                           (35,21%)
+            13.191      cpu_atom/branch-misses/          #    0,48% of all branches             (64,79%)
+            72.779      cpu_core/branch-misses/          #    2,22% of all branches             (35,21%)
+
+       0,022913132 seconds time elapsed
+
+       0,018969000 seconds user
+       0,003993000 seconds sys

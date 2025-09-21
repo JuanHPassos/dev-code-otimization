@@ -1,0 +1,167 @@
+1. Performance counter stats for './cen':
+
+        19.073.682      cpu_atom/L1-dcache-loads/                                               (36,68%)
+        47.443.539      cpu_core/L1-dcache-loads/                                               (63,32%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           336.130      cpu_core/L1-dcache-load-misses/  #    0,71% of all L1-dcache accesses   (63,32%)
+         2.581.704      cpu_atom/branch-instructions/                                           (36,68%)
+         2.976.469      cpu_core/branch-instructions/                                           (63,32%)
+            26.999      cpu_atom/branch-misses/          #    1,05% of all branches             (36,68%)
+            23.329      cpu_core/branch-misses/          #    0,78% of all branches             (63,32%)
+
+       0,014487863 seconds time elapsed
+
+       0,013543000 seconds user
+       0,001041000 seconds sys
+
+2. Performance counter stats for './cen':
+
+        10.459.031      cpu_atom/L1-dcache-loads/                                               (19,68%)
+        43.558.057      cpu_core/L1-dcache-loads/                                               (80,32%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           542.692      cpu_core/L1-dcache-load-misses/  #    1,25% of all L1-dcache accesses   (80,32%)
+         3.281.634      cpu_atom/branch-instructions/                                           (19,68%)
+         2.727.291      cpu_core/branch-instructions/                                           (80,32%)
+            37.856      cpu_atom/branch-misses/          #    1,15% of all branches             (19,68%)
+            18.179      cpu_core/branch-misses/          #    0,67% of all branches             (80,32%)
+
+       0,022490754 seconds time elapsed
+
+       0,019684000 seconds user
+       0,002952000 seconds sys
+
+3. Performance counter stats for './cen':
+
+        21.198.424      cpu_atom/L1-dcache-loads/                                               (28,50%)
+        43.352.145      cpu_core/L1-dcache-loads/                                               (71,50%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.507.555      cpu_core/L1-dcache-load-misses/  #    5,78% of all L1-dcache accesses   (71,50%)
+         3.110.015      cpu_atom/branch-instructions/                                           (28,50%)
+         2.721.317      cpu_core/branch-instructions/                                           (71,50%)
+            32.669      cpu_atom/branch-misses/          #    1,05% of all branches             (28,50%)
+            19.662      cpu_core/branch-misses/          #    0,72% of all branches             (71,50%)
+
+       0,018377652 seconds time elapsed
+
+       0,014535000 seconds user
+       0,003876000 seconds sys
+
+4. Performance counter stats for './cen':
+
+        32.768.898      cpu_atom/L1-dcache-loads/                                               (74,99%)
+        49.896.726      cpu_core/L1-dcache-loads/                                               (25,01%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           426.962      cpu_core/L1-dcache-load-misses/  #    0,86% of all L1-dcache accesses   (25,01%)
+         2.693.396      cpu_atom/branch-instructions/                                           (74,99%)
+         3.286.191      cpu_core/branch-instructions/                                           (25,01%)
+            24.237      cpu_atom/branch-misses/          #    0,90% of all branches             (74,99%)
+            27.114      cpu_core/branch-misses/          #    0,83% of all branches             (25,01%)
+
+       0,022779567 seconds time elapsed
+
+       0,019538000 seconds user
+       0,002930000 seconds sys
+
+5. Performance counter stats for './cen':
+
+        19.204.730      cpu_atom/L1-dcache-loads/                                               (49,46%)
+        54.483.104      cpu_core/L1-dcache-loads/                                               (50,54%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         1.618.099      cpu_core/L1-dcache-load-misses/  #    2,97% of all L1-dcache accesses   (50,54%)
+         2.220.572      cpu_atom/branch-instructions/                                           (49,46%)
+         3.424.480      cpu_core/branch-instructions/                                           (50,54%)
+            22.180      cpu_atom/branch-misses/          #    1,00% of all branches             (49,46%)
+            27.025      cpu_core/branch-misses/          #    0,79% of all branches             (50,54%)
+
+       0,014871786 seconds time elapsed
+
+       0,011099000 seconds user
+       0,003699000 seconds sys
+
+
+
+6. Performance counter stats for './cen':
+
+        25.395.017      cpu_atom/L1-dcache-loads/                                               (56,60%)
+        52.244.591      cpu_core/L1-dcache-loads/                                               (43,40%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           650.232      cpu_core/L1-dcache-load-misses/  #    1,24% of all L1-dcache accesses   (43,40%)
+         2.476.807      cpu_atom/branch-instructions/                                           (56,60%)
+         3.311.962      cpu_core/branch-instructions/                                           (43,40%)
+            24.334      cpu_atom/branch-misses/          #    0,98% of all branches             (56,60%)
+            24.983      cpu_core/branch-misses/          #    0,75% of all branches             (43,40%)
+
+       0,019010134 seconds time elapsed
+
+       0,015929000 seconds user
+       0,003185000 seconds sys
+
+
+
+7. Performance counter stats for './cen':
+
+        25.711.432      cpu_atom/L1-dcache-loads/                                               (39,34%)
+        44.418.229      cpu_core/L1-dcache-loads/                                               (60,66%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         1.573.878      cpu_core/L1-dcache-load-misses/  #    3,54% of all L1-dcache accesses   (60,66%)
+         2.891.591      cpu_atom/branch-instructions/                                           (39,34%)
+         2.816.698      cpu_core/branch-instructions/                                           (60,66%)
+            28.581      cpu_atom/branch-misses/          #    0,99% of all branches             (39,34%)
+            16.136      cpu_core/branch-misses/          #    0,57% of all branches             (60,66%)
+
+       0,019503001 seconds time elapsed
+
+       0,015937000 seconds user
+       0,002988000 seconds sys
+
+
+
+8. Performance counter stats for './cen':
+
+         2.582.732      cpu_atom/L1-dcache-loads/                                               (2,08%)
+        37.755.834      cpu_core/L1-dcache-loads/                                               (97,92%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           323.106      cpu_core/L1-dcache-load-misses/  #    0,86% of all L1-dcache accesses   (97,92%)
+         1.865.261      cpu_atom/branch-instructions/                                           (2,08%)
+         2.847.943      cpu_core/branch-instructions/                                           (97,92%)
+           103.004      cpu_atom/branch-misses/          #    5,52% of all branches             (2,08%)
+            21.821      cpu_core/branch-misses/          #    0,77% of all branches             (97,92%)
+
+       0,016840493 seconds time elapsed
+
+       0,013154000 seconds user
+       0,003758000 seconds sys
+
+9. Performance counter stats for './cen':
+
+        26.845.960      cpu_atom/L1-dcache-loads/                                               (58,18%)
+        51.251.202      cpu_core/L1-dcache-loads/                                               (41,82%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           985.282      cpu_core/L1-dcache-load-misses/  #    1,92% of all L1-dcache accesses   (41,82%)
+         2.531.993      cpu_atom/branch-instructions/                                           (58,18%)
+         3.271.490      cpu_core/branch-instructions/                                           (41,82%)
+            24.084      cpu_atom/branch-misses/          #    0,95% of all branches             (58,18%)
+            25.747      cpu_core/branch-misses/          #    0,79% of all branches             (41,82%)
+
+       0,021877197 seconds time elapsed
+
+       0,018860000 seconds user
+       0,002977000 seconds sys
+
+
+
+10. Performance counter stats for './cen':
+
+        20.109.246      cpu_atom/L1-dcache-loads/                                               (27,29%)
+        43.401.619      cpu_core/L1-dcache-loads/                                               (72,71%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           448.028      cpu_core/L1-dcache-load-misses/  #    1,03% of all L1-dcache accesses   (72,71%)
+         3.141.675      cpu_atom/branch-instructions/                                           (27,29%)
+         2.722.731      cpu_core/branch-instructions/                                           (72,71%)
+            34.880      cpu_atom/branch-misses/          #    1,11% of all branches             (27,29%)
+            15.109      cpu_core/branch-misses/          #    0,55% of all branches             (72,71%)
+
+       0,019396785 seconds time elapsed
+
+       0,016423000 seconds user
+       0,002898000 seconds sys

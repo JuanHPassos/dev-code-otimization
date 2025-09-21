@@ -1,0 +1,177 @@
+1. Performance counter stats for './ben':
+
+        31.845.452      cpu_atom/L1-dcache-loads/                                               (71,70%)
+        50.302.955      cpu_core/L1-dcache-loads/                                               (28,30%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           799.476      cpu_core/L1-dcache-load-misses/  #    1,59% of all L1-dcache accesses   (28,30%)
+         2.681.852      cpu_atom/branch-instructions/                                           (71,70%)
+         3.287.666      cpu_core/branch-instructions/                                           (28,30%)
+            24.769      cpu_atom/branch-misses/          #    0,92% of all branches             (71,70%)
+            25.199      cpu_core/branch-misses/          #    0,77% of all branches             (28,30%)
+
+       0,017550343 seconds time elapsed
+
+       0,016481000 seconds user
+       0,001030000 seconds sys
+
+
+
+2. Performance counter stats for './ben':
+
+         6.434.525      cpu_atom/L1-dcache-loads/                                               (15,07%)
+        42.479.230      cpu_core/L1-dcache-loads/                                               (84,93%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         2.441.494      cpu_core/L1-dcache-load-misses/  #    5,75% of all L1-dcache accesses   (84,93%)
+         3.314.933      cpu_atom/branch-instructions/                                           (15,07%)
+         2.753.412      cpu_core/branch-instructions/                                           (84,93%)
+            46.613      cpu_atom/branch-misses/          #    1,41% of all branches             (15,07%)
+            19.269      cpu_core/branch-misses/          #    0,70% of all branches             (84,93%)
+
+       0,018657727 seconds time elapsed
+
+       0,014621000 seconds user
+       0,003899000 seconds sys
+
+
+
+3. Performance counter stats for './ben':
+
+        15.345.970      cpu_atom/L1-dcache-loads/                                               (28,82%)
+        45.844.444      cpu_core/L1-dcache-loads/                                               (71,18%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           809.663      cpu_core/L1-dcache-load-misses/  #    1,77% of all L1-dcache accesses   (71,18%)
+         2.748.627      cpu_atom/branch-instructions/                                           (28,82%)
+         2.880.469      cpu_core/branch-instructions/                                           (71,18%)
+            30.109      cpu_atom/branch-misses/          #    1,10% of all branches             (28,82%)
+            20.070      cpu_core/branch-misses/          #    0,70% of all branches             (71,18%)
+
+       0,018555946 seconds time elapsed
+
+       0,014681000 seconds user
+       0,003915000 seconds sys
+
+
+
+4. Performance counter stats for './ben':
+
+         2.076.067      cpu_atom/L1-dcache-loads/                                               (2,53%)
+        37.936.294      cpu_core/L1-dcache-loads/                                               (97,47%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           260.437      cpu_core/L1-dcache-load-misses/  #    0,69% of all L1-dcache accesses   (97,47%)
+         1.498.207      cpu_atom/branch-instructions/                                           (2,53%)
+         2.864.305      cpu_core/branch-instructions/                                           (97,47%)
+            83.488      cpu_atom/branch-misses/          #    5,57% of all branches             (2,53%)
+            19.735      cpu_core/branch-misses/          #    0,69% of all branches             (97,47%)
+
+       0,011895739 seconds time elapsed
+
+       0,009994000 seconds user
+       0,001998000 seconds sys
+
+
+
+5. Performance counter stats for './ben':
+
+         2.011.137      cpu_atom/L1-dcache-loads/                                               (2,68%)
+        37.983.609      cpu_core/L1-dcache-loads/                                               (97,32%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           264.457      cpu_core/L1-dcache-load-misses/  #    0,70% of all L1-dcache accesses   (97,32%)
+         1.440.941      cpu_atom/branch-instructions/                                           (2,68%)
+         2.861.130      cpu_core/branch-instructions/                                           (97,32%)
+            83.235      cpu_atom/branch-misses/          #    5,78% of all branches             (2,68%)
+            21.041      cpu_core/branch-misses/          #    0,74% of all branches             (97,32%)
+
+       0,012366347 seconds time elapsed
+
+       0,009544000 seconds user
+       0,002863000 seconds sys
+
+
+
+6. Performance counter stats for './ben':
+
+        20.957.921      cpu_atom/L1-dcache-loads/                                               (46,02%)
+        50.758.325      cpu_core/L1-dcache-loads/                                               (53,98%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+         1.145.107      cpu_core/L1-dcache-load-misses/  #    2,26% of all L1-dcache accesses   (53,98%)
+         2.412.119      cpu_atom/branch-instructions/                                           (46,02%)
+         3.200.581      cpu_core/branch-instructions/                                           (53,98%)
+            24.076      cpu_atom/branch-misses/          #    1,00% of all branches             (46,02%)
+            21.037      cpu_core/branch-misses/          #    0,66% of all branches             (53,98%)
+
+       0,019106537 seconds time elapsed
+
+       0,016233000 seconds user
+       0,003043000 seconds sys
+
+
+
+7. Performance counter stats for './ben':
+
+         4.376.176      cpu_atom/L1-dcache-loads/                                               (7,21%)
+        39.578.848      cpu_core/L1-dcache-loads/                                               (92,79%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           376.026      cpu_core/L1-dcache-load-misses/  #    0,95% of all L1-dcache accesses   (92,79%)
+         3.195.264      cpu_atom/branch-instructions/                                           (7,21%)
+         2.806.535      cpu_core/branch-instructions/                                           (92,79%)
+            90.899      cpu_atom/branch-misses/          #    2,84% of all branches             (7,21%)
+            17.940      cpu_core/branch-misses/          #    0,64% of all branches             (92,79%)
+
+       0,016086414 seconds time elapsed
+
+       0,013250000 seconds user
+       0,003057000 seconds sys
+
+
+
+8. Performance counter stats for './ben':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.030.446      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           256.433      cpu_core/L1-dcache-load-misses/  #    0,69% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.831.786      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            20.308      cpu_core/branch-misses/          #    0,72% of all branches           
+
+       0,013109052 seconds time elapsed
+
+       0,012100000 seconds user
+       0,001008000 seconds sys
+
+
+
+9. Performance counter stats for './ben':
+
+     <not counted>      cpu_atom/L1-dcache-loads/                                               (0,00%)
+        37.030.085      cpu_core/L1-dcache-loads/                                             
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           313.999      cpu_core/L1-dcache-load-misses/  #    0,85% of all L1-dcache accesses 
+     <not counted>      cpu_atom/branch-instructions/                                           (0,00%)
+         2.831.566      cpu_core/branch-instructions/                                         
+     <not counted>      cpu_atom/branch-misses/                                                 (0,00%)
+            22.594      cpu_core/branch-misses/          #    0,80% of all branches           
+
+       0,012572019 seconds time elapsed
+
+       0,010562000 seconds user
+       0,001920000 seconds sys
+
+
+
+10. Performance counter stats for './ben':
+
+        24.811.767      cpu_atom/L1-dcache-loads/                                               (51,27%)
+        49.940.961      cpu_core/L1-dcache-loads/                                               (48,73%)
+   <not supported>      cpu_atom/L1-dcache-load-misses/                                       
+           581.134      cpu_core/L1-dcache-load-misses/  #    1,16% of all L1-dcache accesses   (48,73%)
+         2.546.508      cpu_atom/branch-instructions/                                           (51,27%)
+         3.161.791      cpu_core/branch-instructions/                                           (48,73%)
+            25.173      cpu_atom/branch-misses/          #    0,99% of all branches             (51,27%)
+            22.815      cpu_core/branch-misses/          #    0,72% of all branches             (48,73%)
+
+       0,018815292 seconds time elapsed
+
+       0,017739000 seconds user
+       0,001043000 seconds sys
