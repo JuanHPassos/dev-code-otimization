@@ -12,9 +12,9 @@ FATOR 1 = MEMÓRIA (2 NÍVEIS -- ALOCAÇÃO ESTÁTICA E DINÁMICA)
 FATOR 2 = TÉCNICA (2 NÍVEIS -- SEM OTIMIZAÇÃO E UNROLLING)
 
 
- Y   X1  X2
------------
-60   -1  -1
-72   +1  -1
-54   -1  +1
-68   +1  +1
+ Y     X1  X2
+-------------
+0.714  -1  -1
+0.767  +1  -1
+0.452  -1  +1
+0.692  +1  +1

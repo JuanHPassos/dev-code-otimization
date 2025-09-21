@@ -1,4 +1,4 @@
-/* Teste Branch(c) com alocação Dinâmica(d) e técnica Unrolling(u) */
+/* Teste Branch(b) com alocação Dinâmica(d) e técnica Unrolling(u) */
 #include<stdio.h>
 #include "tecnicas.h"
 

@@ -1,4 +1,4 @@
-/* Teste Branch(c) com alocação Estática(e) e técnica Normal(n) */
+/* Teste Branch(b) com alocação Estática(e) e técnica Normal(n) */
 #include<stdio.h>
 #include "tecnicas.h"
 
