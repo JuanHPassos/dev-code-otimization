@@ -9,13 +9,14 @@ NÚMERO TOTAL DE VARIÁVEIS POR LINHA = 2
 
 VARIÁVEL DE RESPOSTA 1 = L1-DCACHE-LOAD-MISSES
 VARIÁVEL DE RESPOSTA 2 = L1-DCACHE-LOAD
-FATOR 1 = MEMÓRIA (2 NÍVEIS -- ALOCAÇÃO ESTÁTICA E DINÁMICA)
-FATOR 2 = TÉCNICA (2 NÍVEIS -- SEM OTIMIZAÇÃO E BLOCAGEM)
+FATOR 1 = MEMÓRIA (2 NÍVEIS -- ALOCAÇÃO ESTÁTICA(-1) E DINÁMICA(+1))
+FATOR 2 = TÉCNICA (2 NÍVEIS -- SEM OTIMIZAÇÃO(-1) E BLOCAGEM(+1))
 
 
-Y1   Y2  X1  X2
-----------------
-60   xx  -1  -1
-72   xx  +1  -1
-54   xx  -1  +1
-68   xx  +1  +1
+Y1          Y2          X1  X2
+------------------------------
+   941.196  46.780.555  -1  -1
+ 1.271.185  38.762.281  +1  -1
+     7.728  53.074.328  -1  +1
+     9.812  57.534.622  +1  +1
+
