@@ -56,8 +56,9 @@ void multiplicar_matrizes_tiling(double *mat_a,
     for(int ii = 0; ii < SIZE; ii += TILE_SIZE)
         for(int jj = 0; jj < SIZE; jj += TILE_SIZE)
             for(int kk = 0; kk < SIZE; kk += TILE_SIZE)
-                for(int i = 0; i < TILE_SIZE; i++)
-                    for(int j = 0; j < TILE_SIZE; j++)
-                        for(int k = 0; k < TILE_SIZE; k++)
-                            mat_c[i*j + j] += mat_a[i*k + k] * mat_b[k*j + j];
+                // Multiplicação de bloco
+                for(int i = ii; i < ii + TILE_SIZE; i++)
+                    for(int j = jj; j < jj + TILE_SIZE; j++)
+                        for(int k = kk; k < kk + TILE_SIZE; k++)
+                            mat_c[i*SIZE + j] += mat_a[i*SIZE + k] * mat_b[k*SIZE + j];
 }

@@ -3,7 +3,7 @@
     
     #include<stdlib.h>
     
-    #define SIZE 128
+    #define SIZE 512
 
 void inicializar_matrizes(double *matriz);
 void multiplicar_matrizes_normal(double *mat_a,
