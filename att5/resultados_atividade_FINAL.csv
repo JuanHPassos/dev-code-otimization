@@ -1,0 +1,11 @@
+Programa,Otimizacao,Tempo_Compilacao_Real,Tamanho_Executavel_Bytes,Tempo_Execucao_Medio_10x
+"nbody.c","O0","0.24","16472","23.869000"
+"nbody.c","O1","0.23","16440","8.208000"
+"nbody.c","O2","0.62","16440","6.769000"
+"nbody.c","O3","0.29","16440","6.500000"
+"nbody.c","Os","0.22","16480","8.842000"
+"fannkuch-redux.c","O0","0.19","16128","71.902000"
+"fannkuch-redux.c","O1","0.24","16112","29.180000"
+"fannkuch-redux.c","O2","0.24","16192","29.598000"
+"fannkuch-redux.c","O3","0.30","16192","36.679000"
+"fannkuch-redux.c","Os","0.25","16152","35.669000"
