@@ -30,9 +30,10 @@ total_time_unoptimized = t_u.timeit(number=5)
 total_time_optimized = t_o.timeit(number=5)
 
 
+print("=== Resultados Finais (Tempo Total) ===")
+print(f"Não Otimizado = {total_time_unoptimized}")
+print(f"Otimizado = {total_time_optimized:.20f}\n")
 
-print(f"Tempo total (não otimizado) = {total_time_unoptimized}")
-print(f"Tempo total (otimizado) = {total_time_optimized}\n")
-
-print(f"Tempo médio (não otimizado) = {total_time_unoptimized/5}")
-print(f"Tempo médio (otimizado) = {total_time_optimized/5}")
+print("=== Resultados Finais (Tempo Médio) ===")
+print(f"Não Otimizado = {total_time_unoptimized/5}")
+print(f"Otimizado = {total_time_optimized/5:.20f}")
