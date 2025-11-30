@@ -1,0 +1,347 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 91  of event 'cpu_core/cache-misses/'
+# Event count (approx.): 602453
+#
+# Overhead,Command        ,Shared Object       ,Symbol                             
+ 8.38%  ,run_benchmark.s,libc.so.6           ,[.] _IO_file_write@@GLIBC_2.2.5
+ 8.08%  ,run_benchmark.s,ld-linux-x86-64.so.2,[.] strcmp
+ 7.34%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] alloc_vmap_area
+ 5.61%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 5.57%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] vfs_write
+ 5.47%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pipe_read
+ 5.16%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] asm_exc_page_fault
+ 4.67%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] ext4_block_write_begin
+ 4.67%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] rb_insert_color
+ 4.52%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 4.01%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] get_vma_policy
+ 3.79%  ,bc             ,[kernel.kallsyms]   ,[k] zap_pte_range
+ 3.60%  ,matrix_scalar_a,libc.so.6           ,[.] __GI___libc_cleanup_push_defer
+ 3.29%  ,matrix_scalar_a,libc.so.6           ,[.] __strlen_avx2
+ 2.64%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] zap_pte_range
+ 2.43%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 1.75%  ,matrix_scalar_a,ld-linux-x86-64.so.2,[.] _dl_fini
+ 1.69%  ,matrix_scalar_a,matrix_scalar_app   ,[.] gemm_scalar
+ 1.65%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] perf_adjust_freq_unthr_context
+ 1.63%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __x64_sys_read
+ 1.57%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] x64_setup_rt_frame
+ 1.47%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mtree_load
+ 1.23%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mt_destroy_walk.isra.0
+ 0.85%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_prev_range
+ 0.80%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mutex_lock
+ 0.73%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] asm_exc_page_fault
+ 0.73%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] tlb_gather_mmu
+ 0.71%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] pud_val
+ 0.69%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_wr_node_store
+ 0.54%  ,matrix_scalar_a,libc.so.6           ,[.] __printf_buffer
+ 0.50%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mem_cgroup_commit_charge
+ 0.47%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] unmap_page_range
+ 0.40%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] lru_gen_del_folio.constprop.0
+ 0.38%  ,matrix_scalar_a,libc.so.6           ,[.] _IO_file_overflow@@GLIBC_2.2.5
+ 0.24%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] down_write
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pcpu_chunk_addr_search
+ 0.19%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] native_write_msr
+ 0.19%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] do_read_fault
+ 0.19%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] slab_update_freelist.isra.0
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __alloc_pages
+ 0.16%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] get_pfnblock_flags_mask
+ 0.16%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_split.isra.0
+ 0.14%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_wr_store_entry.isra.0
+ 0.14%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] obj_cgroup_charge
+ 0.12%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __vm_munmap
+ 0.12%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] anon_vma_name
+ 0.12%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_ascend
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __anon_vma_interval_tree_remove
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] do_vmi_align_munmap
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_wp_page
+ 0.10%  ,perf-exec      ,[kernel.kallsyms]   ,[k] perf_iterate_sb.constprop.0
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __slab_free
+ 0.03%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] sync_regs
+ 0.02%  ,perf-exec      ,[kernel.kallsyms]   ,[k] perf_event_addr_filters_exec
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] count_memcg_events.constprop.0
+ 0.02%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] select_task_rq
+ 0.02%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] perf_pmu_nop_void
+ 0.02%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] native_read_msr
+ 0.01%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] scheduler_tick
+ 0.01%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] tick_sched_do_timer
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __percpu_counter_sum
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] dequeue_signal
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] find_vma
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mnt_get_write_access
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] rseq_get_rseq_cs
+
+
+# Samples: 757  of event 'cpu_core/L1-dcache-load-misses/'
+# Event count (approx.): 2894543
+#
+# Overhead,Command        ,Shared Object       ,Symbol                            
+ 92.25% ,matrix_scalar_a,matrix_scalar_app   ,[.] gemm_scalar
+ 0.62%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] perf_adjust_freq_unthr_context
+ 0.58%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 0.30%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.25%  ,bc             ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.23%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] preempt_model_full
+ 0.23%  ,bc             ,[kernel.kallsyms]   ,[k] mas_next_node
+ 0.23%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] free_swap_cache
+ 0.22%  ,bc             ,[kernel.kallsyms]   ,[k] perf_iterate_ctx
+ 0.22%  ,bc             ,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 0.22%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] flush_tlb_mm_range
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __call_rcu_common
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memcpy
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_walk
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_mmap_output
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] anon_pipe_buf_release
+ 0.19%  ,bc             ,ld-linux-x86-64.so.2,[.] strcmp
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] down_write
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mksaveddirty_shift
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] rmqueue
+ 0.18%  ,run_benchmark.s,bash                ,[.] make_child
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_page_from_freelist
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] rb_next
+ 0.16%  ,run_benchmark.s,libc.so.6           ,[.] _int_free
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] update_sg_wakeup_stats
+ 0.14%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] update_curr
+ 0.14%  ,bc             ,[kernel.kallsyms]   ,[k] __call_rcu_common
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_next_node
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] trigger_load_balance
+ 0.08%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] timekeeping_advance
+ 0.06%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] tick_sched_do_timer
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] perf_pmu_nop_void
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] update_cfs_group
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __hrtimer_run_queues
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] vma_interval_tree_remove
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] down_write
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __tlb_remove_page_size
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] get_pfnblock_flags_mask
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] account_user_time
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] cgroup_rstat_updated
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __mod_zone_page_state
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] tlb_gather_mmu
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.04%  ,matrix_scalar_a,libc.so.6           ,[.] __printf_fp_buffer_1.isra.0
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] nohz_balancer_kick
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] consume_stock
+ 0.04%  ,matrix_scalar_a,libc.so.6           ,[.] _IO_flush_all
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] update_fast_timekeeper
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] tick_nohz_highres_handler
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __update_load_avg_cfs_rq
+ 0.03%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] intel_pmu_disable_all
+ 0.03%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __raw_spin_lock_irqsave
+ 0.03%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] update_process_times
+
+
+# Samples: 1K of event 'cpu_core/branch-loads/'
+# Event count (approx.): 156328605
+#
+# Overhead,Command        ,Shared Object       ,Symbol                          
+ 96.21% ,matrix_scalar_a,matrix_scalar_app   ,[.] gemm_scalar
+ 0.21%  ,bc             ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.21%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_walk
+ 0.18%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] irqentry_exit_to_user_mode
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __sched_fork
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_node_trace
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] consume_obj_stock
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.11%  ,run_benchmark.s,bash                ,[.] 0x00000000001168e8
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __rcu_read_lock
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] error_entry
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __put_partials
+ 0.10%  ,bc             ,[kernel.kallsyms]   ,[k] __fsnotify_parent
+ 0.10%  ,bc             ,libc.so.6           ,[.] _int_malloc
+ 0.10%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pmd_range.isra.0
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __rcu_read_unlock
+ 0.10%  ,run_benchmark.s,bash                ,[.] dequote_string
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] uncharge_folio
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] vm_normal_page
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] free_pages_and_swap_cache
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __calc_delta.constprop.0
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] update_load_avg
+ 0.09%  ,run_benchmark.s,bash                ,[.] 0x0000000000041088
+ 0.08%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] arch_check_zapped_pte
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.07%  ,run_benchmark.s,libc.so.6           ,[.] __mbrtowc
+ 0.07%  ,run_benchmark.s,libc.so.6           ,[.] __memmove_avx_unaligned_erms
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] up_read
+ 0.06%  ,run_benchmark.s,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __virt_addr_valid
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] consume_stock
+ 0.04%  ,run_benchmark.s,libc.so.6           ,[.] re_compile_fastmap_iter
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] access_error
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.01%  ,run_benchmark.s,libc.so.6           ,[.] __collseq_table_lookup
+ 0.01%  ,run_benchmark.s,libc.so.6           ,[.] parse_expression
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.00%  ,run_benchmark.s,libc.so.6           ,[.] _int_free
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_unlock_irq
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] locks_remove_posix
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] make_vfsuid
+ 0.00%  ,run_benchmark.s,bash                ,[.] 0x0000000000087514
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __update_blocked_fair
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_wp_page
+
+
+# Samples: 659  of event 'cpu_core/branch-load-misses/'
+# Event count (approx.): 670097
+#
+# Overhead,Command        ,Shared Object       ,Symbol                           
+ 80.27% ,matrix_scalar_a,matrix_scalar_app   ,[.] gemm_scalar
+ 0.93%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] sched_cgroup_fork
+ 0.93%  ,run_benchmark.s,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.89%  ,bc             ,[kernel.kallsyms]   ,[k] vma_interval_tree_remove
+ 0.89%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] release_pages
+ 0.86%  ,run_benchmark.s,bash                ,[.] set_shellopts
+ 0.85%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pcpu_alloc_area
+ 0.83%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 0.82%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __d_alloc
+ 0.82%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_present_pte
+ 0.82%  ,run_benchmark.s,bash                ,[.] init_yy_io
+ 0.82%  ,run_benchmark.s,libc.so.6           ,[.] cfree@GLIBC_2.2.5
+ 0.78%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.78%  ,run_benchmark.s,bash                ,[.] 0x00000000001154c3
+ 0.75%  ,run_benchmark.s,libc.so.6           ,[.] __memmove_avx_unaligned_erms
+ 0.75%  ,run_benchmark.s,libc.so.6           ,[.] re_node_set_merge
+ 0.72%  ,run_benchmark.s,bash                ,[.] 0x00000000001165c3
+ 0.70%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __update_load_avg_se
+ 0.60%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_cache_libcmp
+ 0.60%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.47%  ,matrix_scalar_a,libc.so.6           ,[.] __printf_fp_buffer_1.isra.0
+ 0.24%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.23%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] untrack_pfn
+ 0.22%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] lru_gen_del_folio.constprop.0
+ 0.20%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] special_mapping_close
+ 0.18%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.18%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] update_min_vruntime
+ 0.18%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_walk
+ 0.17%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] vm_normal_page
+ 0.16%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.15%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mm_counter
+ 0.15%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __memcg_slab_free_hook
+ 0.15%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __irqentry_text_end
+ 0.13%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __update_load_avg_cfs_rq
+ 0.13%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.11%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] lock_vma_under_rcu
+ 0.10%  ,matrix_scalar_a,matrix_scalar_app   ,[.] main
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] propagate_protected_usage
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __mod_node_page_state
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_wr_modify
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_update_gap.part.0
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] folio_add_file_rmap_ptes
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_destroy
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_ascend
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] kmem_cache_free
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __mod_memcg_lruvec_state
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_prev_slot
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] vma_dup_policy
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] remove_vma
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] kick_ilb
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __update_load_avg_se
+ 0.09%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] invoke_rcu_core
+ 0.07%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] unlink_anon_vmas
+
+
+# Samples: 1K of event 'cpu_core/L1-dcache-loads/'
+# Event count (approx.): 2099766880
+#
+# Overhead,Command        ,Shared Object    ,Symbol                             
+ 99.67% ,matrix_scalar_a,matrix_scalar_app,[.] gemm_scalar
+ 0.04%  ,matrix_scalar_a,matrix_scalar_app,[.] init_matrices
+ 0.02%  ,matrix_scalar_a,[kernel.kallsyms],[k] __alloc_pages
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms],[k] perf_event_init_context
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms],[k] down_write
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms],[k] obj_cgroup_charge
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms],[k] kmalloc_trace
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms],[k] kmem_cache_alloc
+ 0.01%  ,run_benchmark.s,libc.so.6        ,[.] malloc
+ 0.01%  ,bc             ,[kernel.kallsyms],[k] mas_walk
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] mas_next_slot
+ 0.01%  ,run_benchmark.s,libc.so.6        ,[.] __gconv_transform_utf8_internal
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] percpu_counter_add_batch
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] release_pages
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] x86_pmu_event_init
+ 0.01%  ,bc             ,[kernel.kallsyms],[k] __handle_mm_fault
+ 0.01%  ,bc             ,[kernel.kallsyms],[k] early_xen_iret_patch
+ 0.01%  ,matrix_scalar_a,[kernel.kallsyms],[k] handle_mm_fault
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] d_path
+ 0.01%  ,run_benchmark.s,bash             ,[.] 0x000000000003712f
+ 0.01%  ,run_benchmark.s,bash             ,[.] mbschr
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] next_uptodate_folio
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms],[k] __irqentry_text_end
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] perf_iterate_ctx
+ 0.00%  ,run_benchmark.s,libc.so.6        ,[.] _dl_mcount_wrapper_check
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] folio_add_file_rmap_ptes
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] __rcu_read_lock
+ 0.00%  ,run_benchmark.s,bash             ,[.] set_shellopts
+ 0.00%  ,run_benchmark.s,bash             ,[.] 0x0000000000083aa0
+ 0.00%  ,run_benchmark.s,libc.so.6        ,[.] __btowc
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] _raw_spin_lock
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] __call_rcu_common
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] do_user_addr_fault
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] free_p4d_range
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] free_unref_page_list
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] sync_regs
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] syscall_exit_to_user_mode
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms],[k] pick_next_task
+
+
+# Samples: 1K of event 'cpu_core/L1-dcache-stores/'
+# Event count (approx.): 304526982
+#
+# Overhead,Command        ,Shared Object       ,Symbol                             
+ 98.49% ,matrix_scalar_a,matrix_scalar_app   ,[.] gemm_scalar
+ 0.13%  ,matrix_scalar_a,matrix_scalar_app   ,[.] init_matrices
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] acct_collect
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __mod_memcg_lruvec_state
+ 0.10%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] __slab_free
+ 0.08%  ,run_benchmark.s,libc.so.6           ,[.] register_state
+ 0.08%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_trace
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __srcu_read_unlock
+ 0.05%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kfree
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] inherit_event.isra.0
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_present_pte
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] dup_userfaultfd_complete
+ 0.05%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] clear_page_erms
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] native_flush_tlb_one_user
+ 0.04%  ,bc             ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.04%  ,bc             ,[kernel.kallsyms]   ,[k] put_cpu_partial
+ 0.04%  ,matrix_scalar_a,[kernel.kallsyms]   ,[k] mas_rev_awalk
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __mod_memcg_state
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_put
+ 0.03%  ,run_benchmark.s,bash                ,[.] 0x000000000003767c
+ 0.03%  ,run_benchmark.s,libc.so.6           ,[.] __memmove_avx_unaligned_erms
+ 0.03%  ,run_benchmark.s,bash                ,[.] mbschr
+ 0.02%  ,run_benchmark.s,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_add_file_rmap_ptes
+ 0.02%  ,run_benchmark.s,libc.so.6           ,[.] __mbrtowc
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] hsw_hw_config
+ 0.02%  ,run_benchmark.s,libc.so.6           ,[.] __gconv_transform_utf8_internal
+ 0.01%  ,run_benchmark.s,libc.so.6           ,[.] __collseq_table_lookup
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __perf_addr_filters_adjust
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] handle_pte_fault
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_walk
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __alloc_pages
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __pte_offset_map
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] error_entry
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_user_addr_fault
+ 0.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] up_read
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

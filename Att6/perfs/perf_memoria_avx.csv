@@ -1,0 +1,663 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 180  of event 'cpu_core/cache-misses/'
+# Event count (approx.): 455329
+#
+# Overhead,Command        ,Shared Object       ,Symbol                              
+ 3.68%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memcg_slab_post_alloc_hook
+ 3.47%  ,bc             ,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 2.56%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] _dl_fini
+ 2.44%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pte_range
+ 2.37%  ,bc             ,[kernel.kallsyms]   ,[k] copy_page
+ 2.23%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 2.21%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] leftmatch_fb
+ 2.10%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 2.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __slab_free
+ 1.96%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __pte_offset_map_lock
+ 1.95%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] refill_obj_stock
+ 1.94%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_trace
+ 1.80%  ,run_benchmark.s,libc.so.6           ,[.] __GI___iswalnum
+ 1.79%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] hsw_hw_config
+ 1.79%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_enable_on_exec
+ 1.79%  ,run_benchmark.s,bash                ,[.] mbschr
+ 1.72%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 1.64%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] free_unref_page_prepare
+ 1.62%  ,bc             ,[kernel.kallsyms]   ,[k] mprotect_fixup
+ 1.59%  ,bc             ,[kernel.kallsyms]   ,[k] pick_link
+ 1.59%  ,bc             ,[kernel.kallsyms]   ,[k] p4d_offset
+ 1.59%  ,bc             ,ld-linux-x86-64.so.2,[.] init_cpu_features.constprop.0
+ 1.59%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] aa_dfa_leftmatch
+ 1.58%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 1.46%  ,bc             ,libc.so.6           ,[.] _init_first
+ 1.39%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] current_obj_cgroup
+ 1.39%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mutex_lock_killable
+ 1.33%  ,matrix_avx_app ,matrix_avx_app      ,[.] gemm_avx
+ 1.33%  ,bc             ,[kernel.kallsyms]   ,[k] mas_next_node
+ 1.26%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] generic_file_open
+ 1.24%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_alloc
+ 1.23%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] rcu_core
+ 1.21%  ,bc             ,[kernel.kallsyms]   ,[k] __put_seccomp_filter
+ 1.19%  ,bc             ,bc                  ,[.] 0x000000000000b523
+ 1.16%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] rmqueue
+ 1.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 1.00%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.96%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __hrtimer_run_queues
+ 0.93%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_present_pte
+ 0.82%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __mem_cgroup_charge
+ 0.75%  ,run_benchmark.s,bash                ,[.] 0x0000000000065ff0
+ 0.75%  ,bc             ,[kernel.kallsyms]   ,[k] __fdget_raw
+ 0.75%  ,bc             ,[kernel.kallsyms]   ,[k] vma_interval_tree_insert
+ 0.74%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.74%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] audit_alloc
+ 0.74%  ,bc             ,[kernel.kallsyms]   ,[k] __rcu_read_lock
+ 0.72%  ,bc             ,[kernel.kallsyms]   ,[k] truncate_inode_pages_range
+ 0.72%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] free_pud_range
+ 0.71%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.70%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] exit_task_namespaces
+ 0.70%  ,bc             ,[kernel.kallsyms]   ,[k] do_read_fault
+ 0.68%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] blk_cgroup_congested
+ 0.67%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_partial_node.part.0
+ 0.66%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] file_close_fd_locked
+ 0.66%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] put_cpu_partial
+ 0.64%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] inode_init_always
+ 0.62%  ,run_benchmark.s,bash                ,[.] builtin_address_internal
+ 0.61%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] check_xstate_in_sigframe
+ 0.61%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_cache_libcmp
+ 0.60%  ,run_benchmark.s,bash                ,[.] 0x0000000000115cf8
+ 0.59%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_page_range
+ 0.57%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] signal_setup_done
+ 0.57%  ,run_benchmark.s,libc.so.6           ,[.] re_search_internal
+ 0.56%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __x64_sys_pipe2
+ 0.56%  ,run_benchmark.s,bash                ,[.] 0x000000000005782a
+ 0.56%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_new_object
+ 0.53%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] alloc_file
+ 0.46%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] find_attach
+ 0.45%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.43%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pty_write_room
+ 0.43%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] cpuset_cpu_is_isolated
+ 0.43%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] free_unref_page_commit
+ 0.42%  ,run_benchmark.s,libc.so.6           ,[.] __libc_dynarray_resize
+ 0.41%  ,run_benchmark.s,bash                ,[.] 0x00000000000473b1
+ 0.41%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] dnotify_flush
+ 0.41%  ,bc             ,[kernel.kallsyms]   ,[k] __call_rcu_common
+ 0.40%  ,run_benchmark.s,bash                ,[.] command_substitute
+ 0.40%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __x64_sys_rt_sigaction
+ 0.39%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kmem_cache_free
+ 0.39%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] _raw_spin_lock_irqsave
+ 0.38%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_page_from_freelist
+ 0.38%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] copy_page
+ 0.37%  ,run_benchmark.s,libc.so.6           ,[.] __libc_fork
+ 0.37%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] pte_mkwrite
+ 0.37%  ,run_benchmark.s,bash                ,[.] string_list_internal
+ 0.36%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] sched_mm_cid_before_execve
+ 0.34%  ,run_benchmark.s,bash                ,[.] execute_command_internal
+ 0.34%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] taskstats_exit
+ 0.32%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] release_pages
+ 0.32%  ,matrix_avx_app ,libc.so.6           ,[.] __printf_fp_buffer_1.isra.0
+ 0.32%  ,run_benchmark.s,bash                ,[.] do_redirections
+ 0.32%  ,run_benchmark.s,bash                ,[.] zread
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] cgroup_rstat_updated
+ 0.30%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] unregister_hw_breakpoint
+ 0.30%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] select_task_rq_fair
+ 0.29%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __raw_spin_lock_irqsave
+ 0.29%  ,matrix_avx_app ,libc.so.6           ,[.] __mpn_mul_1
+ 0.27%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] memcg_list_lru_alloc
+ 0.27%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] vma_complete
+ 0.25%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __memcg_slab_post_alloc_hook
+ 0.24%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] get_pfnblock_flags_mask
+ 0.24%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] tty_buffer_space_avail
+ 0.19%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.19%  ,run_benchmark.s,libc.so.6           ,[.] __strchr_avx2
+ 0.15%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __mod_zone_page_state
+ 0.15%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.10%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] collect_signal
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __get_user_8
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_prep_large_rmappable
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __rcu_read_unlock
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] refill_obj_stock
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] vm_normal_page
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] wait_task_zombie
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] filp_flush
+ 0.06%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] xas_load
+ 0.05%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] ___slab_alloc
+ 0.05%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] current_obj_cgroup
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __pte_offset_map_lock
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] down_write_killable
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] read_tsc
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] irq_work_tick
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __alloc_pages
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __pte_offset_map
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] atime_needs_update
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mem_cgroup_handle_over_high
+ 0.03%  ,run_benchmark.s,bash                ,[.] 0x00000000000791eb
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] native_queued_spin_lock_slowpath
+ 0.02%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] select_task_rq
+ 0.01%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] fd_install
+ 0.01%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] lockref_put_return
+ 0.01%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] sync_regs
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __free_pages
+ 0.01%  ,run_benchmark.s,libc.so.6           ,[.] pthread_sigmask@GLIBC_2.2.5
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] free_pipe_info
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] wake_up_bit
+
+
+# Samples: 229  of event 'cpu_core/L1-dcache-load-misses/'
+# Event count (approx.): 6679971
+#
+# Overhead,Command        ,Shared Object       ,Symbol                            
+ 96.07% ,matrix_avx_app ,matrix_avx_app      ,[.] gemm_avx
+ 0.21%  ,bc             ,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 0.17%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __perf_addr_filters_adjust
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] leftmatch_fb
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] perf_iterate_ctx
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_alloc
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.12%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] irq_enter_rcu
+ 0.09%  ,bc             ,[kernel.kallsyms]   ,[k] __d_lookup_rcu
+ 0.09%  ,bc             ,[kernel.kallsyms]   ,[k] sync_regs
+ 0.09%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.09%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] update_cfs_group
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_adjust_freq_unthr_context
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] uncharge_folio
+ 0.09%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_find_object_from_map
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.08%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] up_read
+ 0.08%  ,run_benchmark.s,bash                ,[.] zread
+ 0.08%  ,bc             ,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 0.08%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.08%  ,bc             ,[kernel.kallsyms]   ,[k] blk_cgroup_congested
+ 0.08%  ,bc             ,[kernel.kallsyms]   ,[k] perf_event_mmap_output
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_task_output
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 0.08%  ,bc             ,[kernel.kallsyms]   ,[k] __perf_addr_filters_adjust
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __fsnotify_parent
+ 0.08%  ,matrix_avx_app ,libc.so.6           ,[.] __mempcpy_chk
+ 0.08%  ,bc             ,[kernel.kallsyms]   ,[k] mm_cid_get
+ 0.07%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_map_object_from_fd
+ 0.07%  ,bc             ,[kernel.kallsyms]   ,[k] security_inode_permission
+ 0.07%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_check_map_versions
+ 0.07%  ,bc             ,libc.so.6           ,[.] _init_first
+ 0.07%  ,bc             ,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.07%  ,bc             ,[kernel.kallsyms]   ,[k] policy_nodemask
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_present_pte
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.06%  ,bc             ,[kernel.kallsyms]   ,[k] free_swap_cache
+ 0.06%  ,run_benchmark.s,bash                ,[.] yyparse
+ 0.06%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.06%  ,bc             ,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memset
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] fpu_clone
+ 0.05%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kfree
+
+
+# Samples: 343  of event 'cpu_core/branch-loads/'
+# Event count (approx.): 20724156
+#
+# Overhead,Command        ,Shared Object       ,Symbol                             
+ 65.13% ,matrix_avx_app ,matrix_avx_app      ,[.] gemm_avx
+ 1.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 1.00%  ,bc             ,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 0.75%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mm_counter
+ 0.73%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] leftmatch_fb
+ 0.72%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] refill_obj_stock
+ 0.68%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.65%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.62%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] perf_iterate_ctx
+ 0.62%  ,bc             ,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.61%  ,bc             ,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.60%  ,bc             ,[kernel.kallsyms]   ,[k] folio_add_file_rmap_ptes
+ 0.58%  ,bc             ,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.57%  ,bc             ,[kernel.kallsyms]   ,[k] perf_iterate_ctx
+ 0.56%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.56%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mod_objcg_state
+ 0.55%  ,bc             ,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.54%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] uncharge_folio
+ 0.52%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __lruvec_stat_mod_folio
+ 0.51%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kfree
+ 0.50%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] free_unref_page_prepare
+ 0.46%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __rcu_read_unlock
+ 0.46%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.43%  ,matrix_avx_app ,libc.so.6           ,[.] munmap_chunk
+ 0.42%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] uncharge_folio
+ 0.41%  ,run_benchmark.s,bash                ,[.] 0x0000000000038220
+ 0.40%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] switch_fpu_return
+ 0.40%  ,run_benchmark.s,bash                ,[.] 0x0000000000111900
+ 0.40%  ,run_benchmark.s,libc.so.6           ,[.] __printf_buffer_to_file_done
+ 0.38%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] free_unref_page_list
+ 0.36%  ,bc             ,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.36%  ,bc             ,[kernel.kallsyms]   ,[k] __rcu_read_lock
+ 0.36%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_walk
+ 0.33%  ,bc             ,libc.so.6           ,[.] __x86_cacheinfo_ifunc
+ 0.33%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] get_vma_policy
+ 0.33%  ,bc             ,[kernel.kallsyms]   ,[k] apparmor_file_open
+ 0.33%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memset
+ 0.33%  ,bc             ,libc.so.6           ,[.] __memcpy_chk
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _find_next_bit
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_trylock
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_wp_page
+ 0.31%  ,bc             ,ld-linux-x86-64.so.2,[.] strcmp
+ 0.29%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_trace
+ 0.29%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.28%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.27%  ,bc             ,[kernel.kallsyms]   ,[k] set_ptes.isra.0
+ 0.27%  ,bc             ,[kernel.kallsyms]   ,[k] acct_collect
+ 0.26%  ,bc             ,[kernel.kallsyms]   ,[k] release_pages
+ 0.26%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.25%  ,bc             ,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.25%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.25%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_cache_libcmp
+ 0.25%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.25%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] set_pte_range
+ 0.25%  ,bc             ,[kernel.kallsyms]   ,[k] entry_SYSCALL_64
+ 0.25%  ,bc             ,[kernel.kallsyms]   ,[k] lock_vma_under_rcu
+ 0.24%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] lru_gen_add_folio
+ 0.24%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_leaf_max_gap
+ 0.24%  ,bc             ,libc.so.6           ,[.] _int_malloc
+ 0.23%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] free_unref_page_list
+ 0.23%  ,run_benchmark.s,libc.so.6           ,[.] __gconv_transform_utf8_internal
+ 0.23%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] strnlen_user
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_page_from_freelist
+ 0.22%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] anon_vma_clone
+ 0.21%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_alloc
+ 0.21%  ,bc             ,[kernel.kallsyms]   ,[k] set_pte_range
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] release_pages
+ 0.20%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_check_map_versions
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] exit_mmap
+ 0.19%  ,bc             ,[kernel.kallsyms]   ,[k] security_mmap_file
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_node_trace
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] update_cfs_group
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __rmqueue_pcplist
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __inode_wait_for_writeback
+ 0.18%  ,run_benchmark.s,libc.so.6           ,[.] __mbrtowc
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.18%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] policy_nodemask
+ 0.18%  ,run_benchmark.s,libc.so.6           ,[.] cfree@GLIBC_2.2.5
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mm_init
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pmd_range.isra.0
+ 0.17%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_add_lru
+ 0.16%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.16%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_walk
+ 0.15%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] get_page_from_freelist
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_find
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_fault
+ 0.15%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_free
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] psi_group_change
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __irqentry_text_end
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _copy_from_user
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.14%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __irqentry_text_end
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] ___slab_alloc
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __rcu_read_unlock
+ 0.13%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] up_read
+ 0.13%  ,run_benchmark.s,bash                ,[.] extract_colon_unit
+ 0.13%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __alloc_pages
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] sync_regs
+ 0.12%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.12%  ,run_benchmark.s,bash                ,[.] 0x0000000000111cb0
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pte_mkwrite
+ 0.11%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __pte_offset_map_lock
+ 0.11%  ,matrix_avx_app ,matrix_avx_app      ,[.] init_matrices
+ 0.10%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] irqentry_exit_to_user_mode
+ 0.10%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] intel_cpuc_finish
+ 0.10%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.10%  ,run_benchmark.s,libc.so.6           ,[.] re_compile_internal
+ 0.09%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.09%  ,matrix_avx_app ,libc.so.6           ,[.] __wmemchr_ifunc
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pud_val
+ 0.09%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] native_flush_tlb_one_user
+ 0.09%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] tlb_finish_mmu
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] intel_pmu_bts_config
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] xas_find
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __srcu_read_unlock
+ 0.08%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_unlock_irqrestore
+ 0.06%  ,run_benchmark.s,libc.so.6           ,[.] __strcpy_chk
+ 0.06%  ,run_benchmark.s,bash                ,[.] execute_command_internal
+ 0.06%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __kmem_cache_alloc_bulk
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] acct_collect
+ 0.05%  ,run_benchmark.s,bash                ,[.] make_word_flags
+ 0.05%  ,run_benchmark.s,libc.so.6           ,[.] __btowc
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] count_memcg_events.constprop.0
+ 0.04%  ,run_benchmark.s,bash                ,[.] 0x0000000000086bd7
+ 0.04%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.04%  ,run_benchmark.s,bash                ,[.] 0x00000000000874eb
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] free_pgtables
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_prev_slot
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __slab_free
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] syscall_exit_to_user_mode
+ 0.03%  ,run_benchmark.s,bash                ,[.] execute_command
+ 0.03%  ,run_benchmark.s,bash                ,[.] 0x000000000008750f
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __update_load_avg_se
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] up_read
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] entry_SYSRETQ_unsafe_stack
+ 0.03%  ,run_benchmark.s,bash                ,[.] 0x000000000005034f
+
+
+# Samples: 25  of event 'cpu_core/branch-load-misses/'
+# Event count (approx.): 117931
+#
+# Overhead,Command        ,Shared Object       ,Symbol                          
+ 13.10% ,bc             ,ld-linux-x86-64.so.2,[.] strcmp
+ 5.30%  ,bc             ,[kernel.kallsyms]   ,[k] thp_get_unmapped_area
+ 5.30%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_wr_end_piv
+ 4.83%  ,bc             ,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 4.82%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] __GI___tunables_init
+ 4.82%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memset
+ 4.67%  ,bc             ,[kernel.kallsyms]   ,[k] mas_rev_awalk
+ 4.64%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] intel_check_word.constprop.0
+ 4.64%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 4.25%  ,bc             ,[kernel.kallsyms]   ,[k] __mmap_region
+ 4.25%  ,bc             ,ld-linux-x86-64.so.2,[.] strchr
+ 4.24%  ,run_benchmark.s,libc.so.6           ,[.] cfree@GLIBC_2.2.5
+ 3.93%  ,bc             ,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 3.92%  ,bc             ,[kernel.kallsyms]   ,[k] do_vmi_align_munmap
+ 3.90%  ,bc             ,ld-linux-x86-64.so.2,[.] check_match
+ 3.87%  ,run_benchmark.s,bash                ,[.] sh_chkwrite
+ 3.85%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_fpstate_to_sigframe
+ 3.52%  ,run_benchmark.s,libc.so.6           ,[.] calc_eclosure_iter
+ 3.27%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] update_blocked_averages
+ 2.79%  ,run_benchmark.s,bash                ,[.] 0x00000000000679c0
+ 2.17%  ,matrix_avx_app ,matrix_avx_app      ,[.] gemm_avx
+ 2.16%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __rb_insert_augmented
+ 1.78%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] rcu_core
+
+
+# Samples: 356  of event 'cpu_core/L1-dcache-loads/'
+# Event count (approx.): 36847241
+#
+# Overhead,Command        ,Shared Object       ,Symbol                               
+ 72.35% ,matrix_avx_app ,matrix_avx_app      ,[.] gemm_avx
+ 1.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 1.04%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.85%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.70%  ,bc             ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.63%  ,bc             ,[kernel.kallsyms]   ,[k] __rcu_read_unlock
+ 0.63%  ,bc             ,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.55%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] leftmatch_fb
+ 0.50%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] free_pages_and_swap_cache
+ 0.42%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] release_pages
+ 0.42%  ,bc             ,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 0.41%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __update_load_avg_cfs_rq
+ 0.41%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memset
+ 0.41%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] trigger_load_balance
+ 0.41%  ,bc             ,[kernel.kallsyms]   ,[k] set_pte_range
+ 0.39%  ,bc             ,[kernel.kallsyms]   ,[k] tlb_gather_mmu
+ 0.38%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] do_anonymous_page
+ 0.37%  ,bc             ,[kernel.kallsyms]   ,[k] mas_find
+ 0.33%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.31%  ,run_benchmark.s,libc.so.6           ,[.] __mbrtowc
+ 0.31%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mod_objcg_state
+ 0.31%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.31%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] intel_put_event_constraints
+ 0.31%  ,run_benchmark.s,bash                ,[.] 0x00000000000850fa
+ 0.31%  ,run_benchmark.s,libc.so.6           ,[.] 0x0000000000188a1d
+ 0.29%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.29%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_walk
+ 0.28%  ,bc             ,[kernel.kallsyms]   ,[k] __memcg_slab_post_alloc_hook
+ 0.28%  ,bc             ,[kernel.kallsyms]   ,[k] may_expand_vm
+ 0.28%  ,bc             ,[kernel.kallsyms]   ,[k] lruvec_stat_mod_folio.constprop.0
+ 0.27%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kfree
+ 0.27%  ,bc             ,[kernel.kallsyms]   ,[k] current_time
+ 0.27%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __cond_resched
+ 0.27%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __rcu_read_lock
+ 0.27%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __slab_free
+ 0.26%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] down_write
+ 0.26%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] up_read
+ 0.26%  ,matrix_avx_app ,matrix_avx_app      ,[.] init_matrices
+ 0.26%  ,bc             ,[kernel.kallsyms]   ,[k] __fput
+ 0.26%  ,bc             ,[kernel.kallsyms]   ,[k] mod_objcg_state
+ 0.25%  ,bc             ,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.25%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] refill_obj_stock
+ 0.25%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] consume_obj_stock
+ 0.24%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_unlock_irq
+ 0.24%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] free_swap_cache
+ 0.24%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_alloc
+ 0.23%  ,bc             ,[kernel.kallsyms]   ,[k] sync_regs
+ 0.21%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_batch_move_lru
+ 0.21%  ,bc             ,[kernel.kallsyms]   ,[k] __memcg_slab_free_hook
+ 0.21%  ,bc             ,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __mem_cgroup_uncharge_list
+ 0.20%  ,run_benchmark.s,libc.so.6           ,[.] re_node_set_merge
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memcg_slab_free_hook
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.20%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_add_lru
+ 0.19%  ,bc             ,[kernel.kallsyms]   ,[k] handle_pte_fault
+ 0.19%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mem_cgroup_from_task
+ 0.19%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] set_pte_range
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.17%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] perf_iterate_ctx
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] set_pte_range
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] up_write
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] x86_get_event_constraints
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_process
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmem_cache_free
+ 0.16%  ,run_benchmark.s,libc.so.6           ,[.] cfree@GLIBC_2.2.5
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] path_init
+ 0.16%  ,bc             ,ld-linux-x86-64.so.2,[.] check_match
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] do_fault
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] filemap_read
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] filemap_fault
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.15%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.15%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] task_tick_fair
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] __memcg_kmem_charge_page
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] native_sched_clock
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_walk
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] prepare_creds
+ 0.14%  ,run_benchmark.s,libc.so.6           ,[.] _int_malloc
+ 0.14%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] intel_get_event_constraints
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] clear_page_erms
+ 0.12%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_lock
+ 0.12%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mm_counter
+ 0.12%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __tlb_remove_page_size
+ 0.12%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __pte_offset_map_lock
+ 0.12%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __cond_resched
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] anon_vma_fork
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] vm_normal_page
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] finish_task_switch.isra.0
+ 0.11%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] policy_nodemask
+ 0.11%  ,run_benchmark.s,libc.so.6           ,[.] __ctype_get_mb_cur_max
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __pte_offset_map
+ 0.11%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] cond_accept_memory
+ 0.10%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] early_xen_iret_patch
+ 0.10%  ,run_benchmark.s,bash                ,[.] 0x0000000000111d38
+ 0.10%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kthread_blkcg
+ 0.10%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] policy_nodemask
+ 0.10%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] get_mem_cgroup_from_mm
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_read_fault
+ 0.09%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.08%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] irqentry_exit_to_user_mode
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __folio_throttle_swaprate
+ 0.07%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] strcmp
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_trace
+ 0.07%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __irqentry_text_end
+ 0.07%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] do_lookup_x
+ 0.06%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] native_flush_tlb_one_user
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __raw_spin_lock_irqsave
+ 0.06%  ,run_benchmark.s,libc.so.6           ,[.] __close
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_partial_node.part.0
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mutex_lock
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_add_file_rmap_ptes
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_node_trace
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memcg_slab_post_alloc_hook
+ 0.05%  ,run_benchmark.s,bash                ,[.] 0x0000000000114004
+ 0.04%  ,run_benchmark.s,libc.so.6           ,[.] __collseq_table_lookup
+ 0.04%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_wp_page
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __tty_insert_flip_string_flags
+ 0.03%  ,run_benchmark.s,libc.so.6           ,[.] _int_free
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] flush_tlb_mm_range
+ 0.02%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kmem_cache_alloc
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.02%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __memset
+ 0.02%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kfree
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] blake2s_compress_ssse3
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] lock_vma_under_rcu
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] newidle_balance
+ 0.02%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] try_to_wake_up
+ 0.01%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] wait_task_zombie
+
+
+# Samples: 337  of event 'cpu_core/L1-dcache-stores/'
+# Event count (approx.): 18979932
+#
+# Overhead,Command        ,Shared Object       ,Symbol                               
+ 69.29% ,matrix_avx_app ,matrix_avx_app      ,[.] gemm_avx
+ 0.99%  ,matrix_avx_app ,matrix_avx_app      ,[.] init_matrices
+ 0.91%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.88%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_remove_rmap_ptes
+ 0.79%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __slab_free
+ 0.73%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.60%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __memset
+ 0.54%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] exit_shm
+ 0.52%  ,bc             ,[kernel.kallsyms]   ,[k] zap_pte_range
+ 0.52%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_node_trace
+ 0.48%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __mod_lruvec_state
+ 0.46%  ,bc             ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.45%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] arch_check_zapped_pte
+ 0.45%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] find_get_pmu_context
+ 0.44%  ,run_benchmark.s,libc.so.6           ,[.] __mbrtowc
+ 0.43%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.43%  ,bc             ,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.42%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mod_objcg_state
+ 0.42%  ,run_benchmark.s,libc.so.6           ,[.] re_compile_internal
+ 0.40%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] release_pages
+ 0.40%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_walk
+ 0.40%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] perf_event_alloc
+ 0.39%  ,bc             ,[kernel.kallsyms]   ,[k] down_write
+ 0.39%  ,bc             ,[kernel.kallsyms]   ,[k] userfaultfd_unmap_complete
+ 0.38%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] get_mem_cgroup_from_mm
+ 0.38%  ,bc             ,[kernel.kallsyms]   ,[k] mas_find
+ 0.38%  ,bc             ,[kernel.kallsyms]   ,[k] __memset
+ 0.36%  ,bc             ,[kernel.kallsyms]   ,[k] clear_page_erms
+ 0.36%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_relocate_object
+ 0.34%  ,bc             ,[kernel.kallsyms]   ,[k] folio_add_file_rmap_ptes
+ 0.33%  ,bc             ,[kernel.kallsyms]   ,[k] up_write
+ 0.33%  ,bc             ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.33%  ,bc             ,[kernel.kallsyms]   ,[k] __call_rcu_common
+ 0.33%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __rcu_read_lock
+ 0.32%  ,bc             ,[kernel.kallsyms]   ,[k] mas_topiary_replace
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] _raw_spin_lock_irq
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_pfnblock_flags_mask
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_mc_enhanced_fast_string
+ 0.32%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] folio_add_file_rmap_ptes
+ 0.32%  ,bc             ,[kernel.kallsyms]   ,[k] __tlb_remove_page_size
+ 0.29%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] filemap_map_pages
+ 0.29%  ,bc             ,[kernel.kallsyms]   ,[k] __mod_memcg_lruvec_state
+ 0.27%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] free_unref_page_prepare
+ 0.27%  ,bc             ,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.25%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_mapping
+ 0.25%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.23%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __raw_spin_lock_irqsave
+ 0.21%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] lru_gen_add_folio
+ 0.21%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __mod_node_page_state
+ 0.21%  ,bc             ,[kernel.kallsyms]   ,[k] obj_cgroup_uncharge
+ 0.20%  ,bc             ,[kernel.kallsyms]   ,[k] unlink_anon_vmas
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_present_pte
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] obj_cgroup_charge
+ 0.20%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] consume_stock
+ 0.20%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __handle_mm_fault
+ 0.19%  ,bc             ,[kernel.kallsyms]   ,[k] xas_start
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __anon_vma_interval_tree_remove
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] update_dl_rq_load_avg
+ 0.19%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] native_sched_clock
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] exit_mmap
+ 0.18%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] kthread_blkcg
+ 0.18%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __d_lookup_rcu
+ 0.18%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.18%  ,matrix_avx_app ,ld-linux-x86-64.so.2,[.] _dl_lookup_symbol_x
+ 0.18%  ,bc             ,[kernel.kallsyms]   ,[k] kmalloc_trace
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] should_failslab.constprop.0
+ 0.17%  ,run_benchmark.s,bash                ,[.] malloc@plt
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] unmap_page_range
+ 0.17%  ,bc             ,[kernel.kallsyms]   ,[k] __lruvec_stat_mod_folio
+ 0.17%  ,bc             ,[kernel.kallsyms]   ,[k] __rcu_read_unlock
+ 0.17%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_batch_move_lru
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] dup_mmap
+ 0.17%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] get_page_from_freelist
+ 0.17%  ,run_benchmark.s,bash                ,[.] 0x0000000000083ea6
+ 0.17%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] x86_get_event_constraints
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] tlb_finish_mmu
+ 0.16%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] fput
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] copy_from_kernel_nofault
+ 0.16%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] lruvec_stat_mod_folio.constprop.0
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] filemap_read
+ 0.16%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] rcu_nocb_try_bypass
+ 0.16%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __mod_node_page_state
+ 0.16%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] clear_page_erms
+ 0.16%  ,bc             ,[kernel.kallsyms]   ,[k] set_ptes.isra.0
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] chacha_block_generic
+ 0.15%  ,bc             ,[kernel.kallsyms]   ,[k] link_path_walk.part.0.constprop.0
+ 0.15%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] copy_page_range
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] list_add_event
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] pte_offset_map_nolock
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] handle_mm_fault
+ 0.14%  ,run_benchmark.s,libc.so.6           ,[.] __gconv_transform_utf8_internal
+ 0.14%  ,bc             ,[kernel.kallsyms]   ,[k] mas_prev_slot
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __pte_offset_map
+ 0.14%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __lruvec_stat_mod_folio
+ 0.14%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mm_counter
+ 0.14%  ,run_benchmark.s,libc.so.6           ,[.] malloc
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mod_objcg_state
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __get_user_8
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] set_pte_range
+ 0.13%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.12%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] folio_add_new_anon_rmap
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] fscrypt_file_open
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] uncharge_folio
+ 0.11%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] x64_sys_call
+ 0.10%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __alloc_pages
+ 0.09%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_next_slot
+ 0.08%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] up_read
+ 0.08%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] zap_pmd_range.isra.0
+ 0.08%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] next_uptodate_folio
+ 0.08%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] mas_wr_walk
+ 0.07%  ,run_benchmark.s,libc.so.6           ,[.] _int_free
+ 0.07%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] __memcg_slab_post_alloc_hook
+ 0.07%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] do_user_addr_fault
+ 0.07%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] x86_pmu_hw_config
+ 0.07%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] percpu_counter_add_batch
+ 0.06%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] kmalloc_trace
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] inherit_event.isra.0
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] get_partial_node.part.0
+ 0.05%  ,run_benchmark.s,libc.so.6           ,[.] __btowc
+ 0.05%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] irqentry_exit_to_user_mode
+ 0.04%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __init_rwsem
+ 0.04%  ,run_benchmark.s,libc.so.6           ,[.] __strlen_avx2
+ 0.04%  ,run_benchmark.s,libc.so.6           ,[.] __fpurge
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] free_pgtables
+ 0.03%  ,matrix_avx_app ,[kernel.kallsyms]   ,[k] unlink_anon_vmas
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __count_memcg_events
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __pte_offset_map_lock
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] __slab_free
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] alloc_pages_mpol
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] cgroup_rstat_updated
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] exc_page_fault
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] handle_pte_fault
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] mem_cgroup_from_task
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] do_syscall_64
+ 0.03%  ,run_benchmark.s,bash                ,[.] begin_unwind_frame
+ 0.03%  ,run_benchmark.s,[kernel.kallsyms]   ,[k] lru_add_fn
+ 0.03%  ,run_benchmark.s,libc.so.6           ,[.] __GI___sigprocmask
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
